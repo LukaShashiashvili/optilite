@@ -1,0 +1,22 @@
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(224, 224, 224);
+    color: black;
+}
+.left, .right{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+.mid img{
+    width: 120px;
+}
+.left img, .right img{
+    width: 40px;
+}
+.left div, .right div, .mid{
+    font-weight: bolder;
+}
