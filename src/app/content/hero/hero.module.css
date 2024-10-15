@@ -2,7 +2,7 @@
 
 .container{
     display: flex;
-    justify-content: space-between;
+    gap: 15em;
     align-items: center;
     width: 100%;
     margin: 50px auto;
