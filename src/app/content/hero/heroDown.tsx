@@ -11,7 +11,7 @@ export default function HeroDown(){
                 <div className={styles.box}>
                     <Image className={styles.photo} src={'/customer.webp'} alt={''} width={70} height={70}></Image>
                     <div className={styles.text}>
-                        <p className={styles.comment}>"I’ve been using this light for a bit, and honestly, OPTILITE PRO is a game changer! No flickering at all, which is great because my eyes don’t get tired. The color accuracy is spot on, so everything looks clear and vibrant”.</p>
+                        <p className={styles.comment}>I have been using this light for a bit, and honestly, OPTILITE PRO is a game changer! No flickering at all, which is great because my eyes do not get tired. The color accuracy is spot on, so everything looks clear and vibrant.</p>
                         <p className={styles.customerName}>⭐⭐⭐⭐⭐ Natalia K. Our Customer</p>
                     </div>
                 </div>
