@@ -7,7 +7,6 @@ export default function Content(){
     return(
         <main className={styles.container}>
             <Hero></Hero>
-            <HeroDown></HeroDown>
             <InfoFirst></InfoFirst>
         </main>
     )
