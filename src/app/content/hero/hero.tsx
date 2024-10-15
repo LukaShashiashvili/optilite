@@ -5,19 +5,10 @@ import Image from 'next/image';
 import HeroDown from './heroDown';
 
 
-interface Props{
-        clName?: string;
-    }
-
-export default function Hero(props: Props){
-    const classNames = [styles.container]
-
-    if(props.clName){
-        classNames.push(props.clName);
-    }
+export default function Hero(){
     
     return(
-        <main className={classNames.join(' ')}>
+        <main className={styles.container}>
             <Image className={styles.photo} src={'/heroPhoto.png'} alt="photo" width={850} height={800}></Image>
             <div className={styles.right}>
                 <div className={styles.text}>
