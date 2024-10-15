@@ -1,5 +1,5 @@
 import styles from './infoFirst.module.css';
-
+import Image from 'next/image';
 export default function InfoFirst(){
     return(
         <main className={styles.container}>
@@ -9,7 +9,7 @@ export default function InfoFirst(){
                 <p>A recent study showed that inadequate lighting and screen glare can produce unseen stressors that may lead to headaches, eye discomfort and sometimes dry eyes </p>
                 <p>OPTILITE PRO’s advanced technology reduces glare and provides optimal lighting, creating a more comfortable and welcoming environment for everyone.  </p>
             </div>
-            <img src={'/productFirst.png'} alt="" />
+            <Image src={'/productFirst.png'} alt=""  width={400} height={606}></Image>
         </main>
     )
 }

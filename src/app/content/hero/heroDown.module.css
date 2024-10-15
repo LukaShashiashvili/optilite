@@ -21,10 +21,6 @@
     padding: 1em;
     border-radius: 1em;
 }
-.photo{
-    width: 70px;
-    height: 70px;
-}
 .text{
     font-size: 0.8em;
     display: flex;
@@ -59,15 +55,5 @@
     text-align: center;
 }
 .iconsUp li img{
-    width: 50px;
-}
-
-.iconsDown{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 480px;
-}
-.featuredIcon{
     width: 50px;
 }
