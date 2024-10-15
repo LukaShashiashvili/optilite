@@ -3,7 +3,6 @@
 .container{
     display: flex;
     gap: 10em;
-    width: 100%;
     margin: 50px auto;
 }
 .right{

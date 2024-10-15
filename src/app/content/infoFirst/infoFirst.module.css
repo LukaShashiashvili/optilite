@@ -1,24 +1,19 @@
 .container{
-    margin-top: 10em;
     display: flex;
-    width: 4096px;
+    justify-content: space-between;
     width: 100%;
-    height: 100%;
-}
-.container img{
-    border-top-right-radius: 1em;
-    border-bottom-right-radius: 1em;
-    max-width: 40%;
+    background:linear-gradient(rgb(0, 0, 0),rgb(119, 119, 119));
 }
 .text{
-    width: 100%;
+    width: 40%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 15px;
     padding: 1em;
-    background:linear-gradient(rgb(0, 0, 0),rgb(119, 119, 119));
+    margin: 5em auto auto 13em;
     color: white;
-    border-top-left-radius: 1em;
-    border-bottom-left-radius: 1em;
+}
+.text h4{
+    font-weight: 900;
 }

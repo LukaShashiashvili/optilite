@@ -4,9 +4,9 @@ import InfoFirst from './infoFirst/infoFirst';
 
 export default function Content(){
     return(
-        <main className={styles.container}>
-            <Hero></Hero>
+        <>
+            <Hero clName={styles.container}></Hero>
             <InfoFirst></InfoFirst>
-        </main>
+        </>
     )
 }
