@@ -16,7 +16,9 @@ export default function Hero(){
                         <h1>Advanced Computer Screen Eye Protection Lamp</h1>
                         <p>Create clutter-free, comfortable, eye protection designed specifically for long-term computer users</p>
                     </div>
-                <Link href={'https://4a5406-31.myshopify.com/products/asymmetric-office-eye-protection-screen-light-electrodeless-dimming'}><Button title={'GET PRODUCT NOW ⚡'}></Button></Link>
+                <Link href={'https://4a5406-31.myshopify.com/products/asymmetric-office-eye-protection-screen-light-electrodeless-dimming'}>
+                    <Button title={'GET OPTILITE PRO NOW⚡'}></Button>
+                </Link>
             </div>
                 <HeroDown></HeroDown>
             </div>
