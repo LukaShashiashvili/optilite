@@ -22,3 +22,23 @@
 .text p{
     font-size: 1.3em;
 }
+
+@media screen and (max-width: 789px) {
+    .text{
+        width: 100vw;
+    }
+}
+
+@media screen and (max-width: 924px) {
+    .container{
+        flex-direction: column;
+        gap: 1em;
+        padding-bottom: 1em;
+    }
+    .text{
+        margin: 1em 0;
+    }
+    .photo{
+        align-self: center;
+    }
+}

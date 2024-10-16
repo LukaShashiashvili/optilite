@@ -8,7 +8,7 @@ export default function Difference(){
                 <h2>Experience Better Lighting, Boost Your Efficience</h2>
                 <p>Whether you are working late or just need clearer visibility, a high-quality lamp can reduce eye strain and help you focus better. Compare the difference and elevate your productivity.</p>
             </div>
-            <Image src={'/asymmetric.png'} alt={''} width={500} height={400}></Image>
+            <Image className={styles.photo} src={'/asymmetric.png'} alt={''} width={500} height={400}></Image>
         </main>
     )
 }

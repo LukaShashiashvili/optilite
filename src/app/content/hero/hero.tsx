@@ -13,7 +13,7 @@ export default function Hero(){
             <div className={styles.right}>
                 <div className={styles.text}>
                     <div className={styles.paragraph}>
-                        <h1>Advanced Computer Screen Eye Protection Lamp</h1>
+                        <h1>ADVANCED COMPUTER SCREEN EYE PROTECTION LAMP</h1>
                         <p>Create clutter-free, comfortable, eye protection designed specifically for long-term computer users</p>
                     </div>
                 <Link href={'https://4a5406-31.myshopify.com/products/asymmetric-office-eye-protection-screen-light-electrodeless-dimming'}>
