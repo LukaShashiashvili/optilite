@@ -5,9 +5,6 @@
     justify-content: space-around;
     width: 100vw;
     align-items: center;
-    background-image: url('/bg.jpg');
-    background-repeat: no-repeat;
-    background-attachment:fixed;
     padding-top: 5em;
     padding-bottom: 5em;
 }
