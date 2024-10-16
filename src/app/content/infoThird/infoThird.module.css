@@ -3,6 +3,7 @@
 .container{
     display: flex;
     justify-content: space-around;
+    width: 100vw;
     align-items: center;
     background-image: url('/bg.jpg');
     background-repeat: no-repeat;
@@ -22,16 +23,6 @@
 .mainH p{
     font-size: 2em;
 }
-.right{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 2em;
-}
-.right h2{
-    font-size: 3em;
-    font-family: 'Montserrat';
-}
 .icons{
     display: grid;
     grid-template-columns: auto auto auto;
@@ -49,4 +40,29 @@
     flex-direction: column;
     gap: 1em;
     align-items: center;
+}
+
+@media screen and (max-width: 680px){
+    .icons{
+        grid-template-columns: auto auto;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .mainH{
+        align-self: flex-start;
+    }
+    .mainH h2{
+        font-size: 2em;
+        width: 100vw;
+    }
+    .mainH p{
+        font-size: 1em;
+        width: 100vw;
+    }
+    .container{
+        flex-direction: column;
+        gap: 15vw;
+    }
+
 }

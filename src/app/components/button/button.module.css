@@ -11,3 +11,9 @@
     background-color: rgb(62, 171, 248);
     cursor: pointer;
 }
+
+@media  screen and (max-width: 768px) {
+    .container{
+        width: 100vw;
+    }
+}

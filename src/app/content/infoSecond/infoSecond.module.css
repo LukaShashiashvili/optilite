@@ -1,21 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-@media screen and (max-width: 768px) {
-    .container{
-        flex-direction: column;
-    }
-}
-
 .container{
     margin-top: 2em;
-    width: 1700px;
+    width: 110em;
     display: flex;
     padding-left: 5em;
     gap: 5em;
     align-items: center;
+    margin-bottom: 3em;
 }
 .text{
-    width: 40%;
+    width: 45em;
     display: flex;
     flex-direction: column;
     gap: 2em;
@@ -41,7 +36,28 @@
 }
 .text p{
     font-size: 1.3em;
-    
 }
 
 
+@media screen and (max-width: 768px) {
+    .container{
+        flex-direction: column;
+        padding-left: 0;
+    }
+    .text{
+        width: 100vw;
+    }
+    .paragraph{
+        width: 90vw;
+    }
+    .photo{
+        width: 100vw;
+    }
+}
+
+@media screen and  (max-width: 1919px) {
+    .container{
+        width: 100vw;
+        justify-content: space-around;
+    }
+ }

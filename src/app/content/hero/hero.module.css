@@ -1,19 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 
-@media screen and (max-width: 768px) {
-    .container{
-        flex-direction: column;
-    }
-    .photo{
-        width: max-content;
-    }
-}
-
 .container{
-    width: 1700px;
+    width: 110em;
     display: flex;
     gap: 10em;
-    margin: 50px auto;
+    margin: 4em auto;
 }
 .right{
     display: flex;
@@ -32,25 +23,27 @@
 }
 
 .text p, .text div{
-    margin: 30px 0;
+    margin: 30px auto;
 }
 
-.box{
-    width: 70%;
-    height: 118px;
-    display: flex;
-    align-items: center;
-    box-sizing: border-box;
-    gap: 17px;
-    border: 2px rgb(0, 149, 255) solid;
-    padding: 1em;
-    border-radius: 1em;
+
+
+@media screen and (max-width: 1024px) {
+    .container{
+        flex-direction: column;
+        gap: 2em;
+    }
+    .photo{
+        width: 100vw;
+        height: 100vw;
+    }
+    .text{
+        width: 100vw;
+    }  
 }
-.textSection{
-    font-size: 0.8em;
-    display: flex;
-    flex-direction: column;
-}
-.customerName{
-    color: grey;
+@media screen and (min-width: 1024px) and (max-width: 1920px) {
+    .photo{
+        width: 45vw;
+        height: 45vw;
+    }
 }

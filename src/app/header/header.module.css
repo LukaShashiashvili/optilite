@@ -12,11 +12,31 @@
     align-items: center;
 }
 .mid img{
-    width: 120px;
+    width: 8em;
 }
 .left img, .right img{
     width: 40px;
 }
 .left div, .right div, .mid{
     font-weight: bolder;
+}
+
+
+@media screen and (max-width: 576px) {
+    .container{
+        height: 7vw;
+        padding-top: 1em;
+    }
+    .left, .right{
+        height: 1vw;
+        font-size: 1vw;
+    }
+    .left img, .right img{
+        width: 5vw;
+        height: 5vw;
+    }
+    .mid img{
+        width: 15vw;
+        height: 8vw;
+    }
 }
