@@ -20,6 +20,9 @@
 .text h2{
     font-size: 3em;
 }
+.photo{
+    align-self: flex-end;
+}
 .box{
     border: 0.5em solid rgb(168, 168, 168);
     padding: 1em;
@@ -34,4 +37,15 @@
 }
 .boxText{
     font-size: 1.3em;
+}
+
+
+@media screen and (max-width:924px) {
+    .container{
+        flex-direction: column;
+        gap: 1em;
+    }
+    .photo{
+        align-self: center;
+    }
 }
