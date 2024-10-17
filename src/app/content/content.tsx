@@ -5,6 +5,7 @@ import InfoFirst from './infoFirst/infoFirst';
 import InfoSecond from './infoSecond/infoSecond';
 import InfoThird from './infoThird/infoThird';
 import Light from './light/light';
+import Places from './places/places';
 import Symetric from './symetric/symetric';
 
 export default function Content(){
@@ -18,6 +19,7 @@ export default function Content(){
             <Difference></Difference>
             <Symetric></Symetric>
             <Light></Light>
+            <Places></Places>
             <Hero></Hero>
         </>
     )

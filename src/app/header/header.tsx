@@ -7,7 +7,10 @@ export default function header(){
         <header className={styles.container}>
             <div className={styles.left}>
                 <Image src={'/delivery.svg'} alt="" width={50} height={50}></Image>
-                <div> FREE SHIPPING 
+                <div>
+                    <span className={styles.diff}>
+                        FREE SHIPPING
+                    </span>
                     <div>IN UNITED STATES!</div>
                 </div>
             </div>
@@ -17,7 +20,7 @@ export default function header(){
             <div className={styles.right}>
                 <Image src={'/guarantee.png'} alt="" width={40} height={40}></Image>
                 <div>
-                    30 DAY 100% MONEY
+                    <span className={styles.diff}>30 DAY </span>100% MONEY
                     <div>BACK GUARANTEE</div>
                 </div>
             </div>
