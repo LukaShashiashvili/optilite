@@ -17,8 +17,8 @@ export default function Content(){
             <HTW></HTW>
             <InfoThird></InfoThird>
             <Difference></Difference>
-            <Symetric></Symetric>
             <Light></Light>
+            <Symetric></Symetric>
             <Places></Places>
             <Hero></Hero>
         </>

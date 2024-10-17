@@ -16,6 +16,9 @@
     padding: 1em;
     border-radius: 1em;
 }
+.photo{
+    border-radius: 3em;
+}
 .text{
     font-size: 0.8em;
     display: flex;

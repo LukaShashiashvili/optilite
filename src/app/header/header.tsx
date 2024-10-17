@@ -15,7 +15,7 @@ export default function header(){
                 </div>
             </div>
             <Link href= {''} className={styles.mid}>
-                <Image src={'/logo.png'} alt="" width={120} height={65}></Image>
+                <Image src={'/logo.png'} alt="" width={150} height={65}></Image>
             </Link>
             <div className={styles.right}>
                 <Image src={'/guarantee.png'} alt="" width={50} height={40}></Image>

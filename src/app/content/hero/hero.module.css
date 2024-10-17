@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
 
 .container{
     width: 110em;
@@ -15,15 +15,18 @@
     width: 50em;
     display: flex;
     flex-direction: column;
-    font-family: "Fira Sans", sans-serif;
+    font-family: "Lexend Deca";
 }
 .text h1{
     font-size: 3em;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 .text p, .text div{
     margin: 30px auto;
+}
+.photo{
+    width: 44vw;
 }
 
 
@@ -43,8 +46,9 @@
 }
 @media screen and (min-width: 1024px) and (max-width: 1920px) {
     .photo{
-        width: 40vw;
+        width: 43vw;
         height: 40vw;
+        align-self: center;
     }
     .text h1{
         width: 45vw;
