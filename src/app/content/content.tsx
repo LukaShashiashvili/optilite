@@ -7,6 +7,7 @@ import InfoThird from './infoThird/infoThird';
 import Light from './light/light';
 import Places from './places/places';
 import Symetric from './symetric/symetric';
+import Video from './video/video';
 
 export default function Content(){
     return(
@@ -20,6 +21,7 @@ export default function Content(){
             <Light></Light>
             <Symetric></Symetric>
             <Places></Places>
+            <Video></Video>
             <Hero></Hero>
         </>
     )
