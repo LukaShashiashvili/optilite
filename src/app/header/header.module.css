@@ -9,6 +9,7 @@
     align-items: center;
     background-color: rgb(246, 246, 246);
     color: black;
+    z-index: 1;
 }
 .left, .right{
     display: flex;
@@ -19,7 +20,8 @@
     font-family: "Lato", sans-serif;
 }
 .mid img{
-    width: 14em;
+    width: 15em;
+    height: 3.5em;
 }
 .left img, .right img{
     width: 40px;

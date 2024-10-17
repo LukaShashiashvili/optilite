@@ -13,7 +13,7 @@ export default function InfoThird(){
                 <p>
                     This combination of specifications and functionality makes the Screen Hanging Lamp an essential tool for creating an efficient and pleasant environment.
                 </p>
-                <Link href={''}>
+                <Link className={styles.button} href={''}>
                     <Button clName={styles.button} title={'GET OPTILITE PRO NOW ⚡'}></Button>
                </Link>
             </div>

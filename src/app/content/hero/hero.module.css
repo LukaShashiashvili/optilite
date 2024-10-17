@@ -21,7 +21,9 @@
     font-size: 3em;
     font-weight: 700;
 }
-
+.paragraph span{
+    font-size: 1.3em;
+}
 .text p, .text div{
     margin: 30px auto;
 }
@@ -29,7 +31,9 @@
     width: 40vw;
     height: 30vw;
 }
-
+.button{
+    align-self: flex-start;
+}
 
 
 @media screen and (max-width: 1024px) {

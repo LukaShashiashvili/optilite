@@ -13,10 +13,10 @@ export default function Hero(){
             <div className={styles.right}>
                 <div className={styles.text}>
                     <div className={styles.paragraph}>
-                        <h1>ADVANCED COMPUTER SCREEN EYE PROTECTION LAMP</h1>
-                        <p>Create clutter-free, comfortable, eye protection designed specifically for long-term computer users</p>
+                        <h1>Top Screen Hanging Light Bar for Eye Comfort</h1>
+                        <span>Create a warm, inviting workspace with eye protection hanging light bar designed especially for screen users.</span>
                     </div>
-                <Link href={'https://4a5406-31.myshopify.com/products/asymmetric-office-eye-protection-screen-light-electrodeless-dimming'}>
+                <Link className={styles.button} href={'https://4a5406-31.myshopify.com/products/asymmetric-office-eye-protection-screen-light-electrodeless-dimming'}>
                     <Button title={'GET OPTILITE PRO NOW⚡'}></Button>
                 </Link>
             </div>

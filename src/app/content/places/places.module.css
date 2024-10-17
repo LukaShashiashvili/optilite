@@ -5,10 +5,9 @@
     justify-content: space-around;
     align-items: center;
     padding: 3em 0;
-    background-image: url('/background.jpeg');
-    background-attachment: fixed;
-    background-position: 5em 5em;
     width: 100%;
+    background-color: black;
+    color: white;
 }
 .left{
     display: grid;
@@ -24,7 +23,6 @@
     flex-direction: column;
     gap: 3em;
     width: 50em;
-    color: white;
 }
 .text h2{
     font-size: 4em;

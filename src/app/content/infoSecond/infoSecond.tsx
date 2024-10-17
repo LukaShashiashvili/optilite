@@ -14,7 +14,7 @@ export default function infoSecond(){
                     <h3>Allows you to see the true colour</h3>
                 </div>
                 <p className={styles.paragraph}>The colour rendering index of the screen light is as high as RA80 which can trully show the natural color of the object and avoid the bad impression caused by color cast</p>
-                <Link href={''}>
+                <Link className={styles.button} href={''}>
                     <Button title={'GET OPTILITE PRO NOW ⚡'}></Button>
                 </Link>
             </div>

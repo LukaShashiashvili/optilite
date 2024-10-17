@@ -37,7 +37,9 @@
 .text p{
     font-size: 1.3em;
 }
-
+.button{
+    align-self: flex-start;
+}
 
 @media screen and (max-width: 768px) {
     .container{
