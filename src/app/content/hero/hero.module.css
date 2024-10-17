@@ -26,7 +26,7 @@
     margin: 30px auto;
 }
 .photo{
-    width: 44vw;
+    width: 40vw;
 }
 
 
@@ -37,17 +37,18 @@
         gap: 2em;
     }
     .photo{
-        width: 100vw;
-        height: 100vw;
+        width: 85vw;
+        height: 80vw;
+        align-self: center;
     }
     .text{
         width: 100vw;
     }  
 }
-@media screen and (min-width: 1024px) and (max-width: 1920px) {
+@media screen and (min-width: 1024px) and (max-width: 1919px) {
     .photo{
-        width: 43vw;
-        height: 40vw;
+        width: 40vw;
+        height: 30vw;
         align-self: center;
     }
     .text h1{
