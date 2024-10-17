@@ -27,6 +27,7 @@
 }
 .photo{
     width: 40vw;
+    height: 30vw;
 }
 
 
@@ -39,7 +40,6 @@
     .photo{
         width: 85vw;
         height: 80vw;
-        align-self: center;
     }
     .text{
         width: 100vw;

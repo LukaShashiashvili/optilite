@@ -7,7 +7,7 @@ export default function Video(){
             <div className={styles.text}>
 
             </div>
-
+            <video src={'/video.mp4'} width={40}></video>
         </main>
     )
 }
