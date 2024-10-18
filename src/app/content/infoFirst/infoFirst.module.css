@@ -3,6 +3,7 @@
     justify-content: space-between;
     width: 100%;
     background:linear-gradient(rgb(0, 0, 0),rgb(119, 119, 119));
+    padding-top: 4em;
 }
 .text{
     width: 43em;
@@ -10,12 +11,16 @@
     flex-direction: column;
     justify-content: center;
     gap: 1em;
-    padding: 1em;
-    margin: 5em auto auto 13em;
+    padding-bottom: 2em;
+    margin-left: 7em;
     color: white;
+    font-size: 1.2em;
 }
 .text h4{
     font-weight: 900;
+}
+.photo{
+    align-self: flex-end;
 }
 
 @media screen and (max-width: 576px) {

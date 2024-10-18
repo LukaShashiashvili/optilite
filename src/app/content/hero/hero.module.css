@@ -19,11 +19,13 @@
     font-size: 3em;
     font-weight: 700;
 }
+.paragraph{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
 .paragraph h1{
     font-weight: 700;
-}
-.paragraph span{
-    font-size: 1.3em;
 }
 .text p, .text div{
     margin: 30px auto;

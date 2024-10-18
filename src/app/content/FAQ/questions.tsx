@@ -1,37 +1,37 @@
 export const data = [
     {
-        id: 1,
-        question: "Is the light adjustable?",
-        answer: "Yes, the light features adjustable brightness settings, enabling you to customize the light intensity according to your preferences and needs."
+      id: 1,
+      question: "How easy is it to install OPTILITE PRO?",
+      answer: "OPTILITE PRO features a 1-second installation process using screws, allowing you to securely mount it with minimal effort. Simply attach it, and you’re ready to enjoy its benefits!"
     },
     {
-        id: 2,
-        question: "Is OPTILITE PRO adjustable for ideal positioning?",
-        answer: "OPTILITE PRO lamp offers maximum flexibility, allowing you to power it from a laptop, power bank, or any USB outlet. This makes it ideal for home offices, libraries, or on-the-go use, ensuring you have the perfect lighting solution wherever you need it."
+      id: 2,
+      question: "Is OPTILITE PRO adjustable for ideal positioning?",
+      answer: "OPTILITE PRO offers maximum flexibility, allowing you to power it from a laptop, power bank, or any USB outlet. This makes it ideal for home offices, libraries, or on-the-go use, ensuring you have the perfect lighting solution wherever you need it."
     },
     {
-        id: 3,
-        question: "Is OPTILITE PRO suitable for use with desktop and laptop screens?",
-        answer: "Yes, OPTILITE PRO is compatible with both desktop and laptop screens. Its versatile design allows for easy attachment to any monitor or laptop, providing optimal lighting for your workspace."
+      id: 3,
+      question: "Can I adjust the brightness of the light?",
+      answer: "Yes, OPTILITE PRO offers stepless dimming, allowing you to customize the brightness to suit your mood and activity."
     },
     {
-        id: 4,
-        question: "Can I use it while traveling?",
-        answer: "Yes, the compact and lightweight design makes it an ideal travel companion. It easily fits in bags or backpacks and can be used on trains, planes, or anywhere you need light."
+      id: 4,
+      question: "What are the different light color modes available?",
+      answer: "OPTILITE PRO features three light color modes: warm, cool, and natural light. This allows you to choose the best light for your environment and activities."
     },
     {
-        id: 5,
-        question: "Is it safe for children?",
-        answer: "Absolutely! The soft, warm light is gentle on the eyes, making it suitable for children."
+      id: 5,
+      question: "Does OPTILITE PRO remember my last settings?",
+      answer: "Yes, the light memory function allows OPTILITE PRO to remember your last brightness and color settings, so you can easily return to your preferred lighting."
     },
     {
-        id: 6,
-        question: "Does OPTILITE PRO offer eco-friendly features?",
-        answer: "Yes, the light is designed with energy-efficient LED technology and rechargeable batteries, reducing their environmental impact compared to traditional lighting options ensuring sustainable consumption."
+      id: 6,
+      question: "How is OPTILITE PRO powered?",
+      answer: "OPTILITE PRO is USB powered, making it versatile and easy to use with various devices, such as laptops, power banks, or wall adapters."
     },
     {
         id: 7,
-        question: "How do I clean and maintain the night screen light?",
-        answer: "To keep your night screen light in good condition, gently wipe it with a soft, damp cloth. Avoid using harsh chemicals or abrasive materials that could damage the surface."
+        question: "Does OPTILITE PRO offer eco-friendly features?",
+        answer: "Yes, the light is designed with energy-efficient LED technology, reducing environmental impact compared to traditional lighting options ensuring sustainable consumption."
     }
-];
+  ];

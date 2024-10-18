@@ -14,7 +14,7 @@ export default function Symetric(){
                 </div>
                 <div className={styles.box}>
                     <Image className={styles.camera} src={'/camera.svg'} alt={''} width={50} height={50}></Image>
-                    <p className={styles.boxText}>Take out the Mobile Phone and turn on the camera, aim at the light source to observe the mobile phone screen, there is no stroboscopic ripple.</p>
+                    <p className={styles.boxText}>Take out the mobile phone and turn on the camera, aim at the light source to observe the mobile phone screen, there is no stroboscopic ripple.</p>
                 </div>
             </div>
             

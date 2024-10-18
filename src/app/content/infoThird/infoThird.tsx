@@ -11,9 +11,9 @@ export default function InfoThird(){
                     KEY SPECIFICATIONS
                 </h2>
                 <p>
-                    This combination of specifications and functionality makes the Screen Hanging Lamp an essential tool for creating an efficient and pleasant environment.
+                    This combination of specifications and functionality makes Optilite Pro an essential tool for creating an efficient and pleasant environment.
                 </p>
-                <Link className={styles.button} href={''}>
+                <Link className={styles.button} href={'https://4a5406-31.myshopify.com/products/asymmetric-office-eye-protection-screen-light-electrodeless-dimming'}>
                     <Button clName={styles.button} title={'GET OPTILITE PRO NOW ⚡'}></Button>
                </Link>
             </div>

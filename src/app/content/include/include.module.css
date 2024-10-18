@@ -8,7 +8,7 @@
 .left{
     display: flex;
     flex-direction: column;
-    gap: 5em;
+    gap: 2em;
     width: 40vw;
 }
 .text{
@@ -17,16 +17,16 @@
     gap: 4em;
 }
 .text h2{
-    font-size: 3em;
-    font-weight: 100;
+    font-size: 2.5em;
+    font-weight: 400;
 }
 .text p{
-    font-size: 1.2em;
+    font-size: 1em;
 }
 .down{
     display: flex;
     flex-direction: column;
-    gap: 2em;
+    gap: 5em;
 }
 .icons{
     display: flex;
@@ -46,9 +46,6 @@
     border-radius: 50%;
     padding: 0.4em;
     box-sizing: content-box;
-}
-.downText{
-    
 }
 
 @media screen and (max-width: 576px) {

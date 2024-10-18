@@ -14,7 +14,7 @@ export default function header(){
                     <div>IN UNITED STATES!</div>
                 </div>
             </div>
-            <Link href= {''} className={styles.mid}>
+            <Link href= {'/'} className={styles.mid}>
                 <Image src={'/logo.png'} alt="" width={150} height={65}></Image>
             </Link>
             <div className={styles.right}>

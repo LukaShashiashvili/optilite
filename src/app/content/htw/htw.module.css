@@ -19,7 +19,6 @@
     flex-direction: column;
     gap: 2em;
     width: 43em;
-    margin-top: 3em;
 }
 .text h2{
     font-size: 4em;
@@ -38,6 +37,7 @@
 }
 
 .htw li ul{
+    font-size: 1.2em;
     font-weight: 100;
     font-family: "Raleway";
 }

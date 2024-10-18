@@ -29,7 +29,7 @@ export default function HTW(){
                         Light Options create a tranquil ambiance that helps reduce stress and anxiety, making it perfect for relaxation after a long day.
                         </ul>
                     </li>
-                    <li>Brightness Adjustment
+                    <li>BRIGHTNESS ADJUSTMENT
                         <ul>
                         Easy switch between warm and cool light to create the perfect ambiance.
                         </ul>

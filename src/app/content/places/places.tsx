@@ -11,9 +11,11 @@ export default function Places(){
                 <Image src={'/places/store.png'} alt='' width={200} height={200}></Image>
             </div>
             <div className={styles.text}>
-                <h2>Highly Portable</h2>
-                <h3>Ideal for Use Anywhere</h3>
-                <p>To work effectively with you anytime, anywhere, do not disturb others, create a comfortable and cozy environment.</p>
+                <div className={styles.headers}>
+                    <h2>Highly Portable</h2>
+                    <h3>Ideal for Use Anywhere</h3>
+                </div>
+                <p>OPTILITE PRO is designed for ultimate portability, featuring a lightweight and compact design that makes it easy to carry and set up anywhere. Whether you are working from home, traveling, or simply moving from room to room, its convenient hanging mechanism ensures you have optimal lighting at your fingertips, enhancing your productivity and comfort wherever you go.</p>
             </div>
         </main>
     )

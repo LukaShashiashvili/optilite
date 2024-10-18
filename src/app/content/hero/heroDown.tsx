@@ -7,7 +7,7 @@ export default function HeroDown(){
     return(
         <main className={styles.container}>
             <ul className={styles.icons}>
-                <li><Image src={'/no-flashing.png'} alt="" width={50} height={50}></Image>No Flashin Video</li>
+                <li><Image src={'/no-flashing.png'} alt="" width={50} height={50}></Image>No Flashing Video</li>
                 <li><Image src={'/CRI.png'} alt="" width={50} height={50}></Image> Ra90 High CRI</li>
                 <li><Image src={'/brightness.png'} alt="" width={50} height={50}></Image>Brightness Adjustment</li>                    
                 <li><Image src={'/color-mode.png'} alt="" width={50} height={50}></Image> 3 Light Color</li>
