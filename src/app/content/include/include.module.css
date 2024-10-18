@@ -36,15 +36,29 @@
 .items{
     display: flex;
     align-items: center;
-    gap: 1em;
+    gap: 0.5em;
 }
 .button{
     align-self: flex-start;
+}
+
+@media screen and (max-width: 576px) {
+    .icons{
+        flex-direction: column;
+        gap: 10vw;
+    }
+    .photo{
+        width: 100vw;
+        height: 90vw;
+    }
 }
 
 @media screen and (max-width: 768px) {
     .container{
         flex-direction: column;
         align-items: flex-start;
+    }
+    .left{
+        width: 100vw;
     }
 }

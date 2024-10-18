@@ -31,7 +31,7 @@ export default function Include(){
                     </Link>
                 </div>
             </div>
-            <Image src={'/includePhoto.png'} alt={''} width={500} height={500}></Image>
+            <Image className={styles.photo} src={'/includePhoto.png'} alt={''} width={500} height={500}></Image>
         </main>
     )
 }
