@@ -14,16 +14,16 @@ export default function Include(){
                 <div className={styles.down}>
                     <div className={styles.icons}>
                         <div className={styles.items}>
-                            <Image src={'/miniProduct.png'} alt={''} width={70} height={20}></Image>
-                            <span>1x Optilite Pro</span>
+                            <Image className={styles.item} src={'/miniProduct.png'} alt={''} width={70} height={20}></Image>
+                            <span>1x Light<div>Bar</div></span>
                         </div>
                         <div className={styles.items}>
-                            <Image src={'/usb.png'} alt={''} width={40} height={30}></Image>
-                            <span>1x USB Cable</span>
+                            <Image className={styles.item} src={'/usb.png'} alt={''} width={40} height={30}></Image>
+                            <span>1x USB<div>Cable</div></span>
                         </div>
                         <div className={styles.items}>
-                            <Image src={'/manual.png'} alt={''} width={45} height={40}></Image>
-                            <span>1x User Manual</span>
+                            <Image className={styles.item} src={'/manual.png'} alt={''} width={45} height={40}></Image>
+                            <span>1x User<div>Manual</div></span>
                         </div>
                     </div>
                     <Link className={styles.button} href={''}>

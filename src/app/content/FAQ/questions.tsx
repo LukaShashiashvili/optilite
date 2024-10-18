@@ -33,15 +33,5 @@ export const data = [
         id: 7,
         question: "How do I clean and maintain the night screen light?",
         answer: "To keep your night screen light in good condition, gently wipe it with a soft, damp cloth. Avoid using harsh chemicals or abrasive materials that could damage the surface."
-    },
-    {
-        id: 8,
-        question: "Is it safe for prolonged use?",
-        answer: "Yes, the night screen light is designed with soft, eye-friendly illumination, making it safe for extended reading or usage."
-    },
-    {
-        id: 9,
-        question: "What if I'm not satisfied with my purchase?",
-        answer: "We offer a 30-day satisfaction guarantee! If you’re not completely satisfied with your night screen light, you can return it within 30 days for a full refund—no questions asked."
     }
 ];

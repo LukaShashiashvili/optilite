@@ -41,6 +41,15 @@
 .button{
     align-self: flex-start;
 }
+.item{
+    background-color: #dadada;
+    border-radius: 50%;
+    padding: 0.4em;
+    box-sizing: content-box;
+}
+.downText{
+    
+}
 
 @media screen and (max-width: 576px) {
     .icons{

@@ -13,7 +13,7 @@ export default function Hero(){
             <div className={styles.right}>
                 <div className={styles.text}>
                     <div className={styles.paragraph}>
-                        <h1>Top Screen Hanging Light Bar for Eye Comfort</h1>
+                        <h1>TOP SCREEN HANGING LIGHT BAR FOR EYE COMFORT</h1>
                         <span>Create a warm, inviting workspace with eye protection hanging light bar designed especially for screen users.</span>
                     </div>
                 <Link className={styles.button} href={'https://4a5406-31.myshopify.com/products/asymmetric-office-eye-protection-screen-light-electrodeless-dimming'}>

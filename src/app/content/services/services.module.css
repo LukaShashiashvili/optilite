@@ -4,6 +4,7 @@
     justify-content: center;
     gap: 1.5em;
     margin-top: 5em;
+    margin-bottom: 5em;
 }
 .box{
     border: 0.2em solid rgb(0, 149, 255);

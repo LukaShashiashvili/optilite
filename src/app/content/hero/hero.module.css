@@ -1,10 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
-
 .container{
     width: 110em;
     display: flex;
     gap: 10em;
     margin: 4em auto;
+    padding-top: 5em;
 }
 .right{
     display: flex;
@@ -15,10 +14,12 @@
     width: 50em;
     display: flex;
     flex-direction: column;
-    font-family: "Lexend Deca";
 }
 .text h1{
     font-size: 3em;
+    font-weight: 700;
+}
+.paragraph h1{
     font-weight: 700;
 }
 .paragraph span{
@@ -29,7 +30,7 @@
 }
 .photo{
     width: 40vw;
-    height: 30vw;
+    height: 27vw;
 }
 .button{
     align-self: flex-start;
@@ -43,7 +44,7 @@
     }
     .photo{
         width: 85vw;
-        height: 80vw;
+        height: 75vw;
     }
     .text{
         width: 100vw;
@@ -51,9 +52,8 @@
 }
 @media screen and (min-width: 1024px) and (max-width: 1919px) {
     .photo{
-        width: 40vw;
-        height: 30vw;
-        align-self: center;
+        width: 45vw;
+        height: 32vw;
     }
     .text h1{
         width: 45vw;

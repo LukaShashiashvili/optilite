@@ -12,6 +12,7 @@ import Symetric from './symetric/symetric';
 import IconsSection from './iconsSection/iconsSection';
 import FAQ from './FAQ/FAQ';
 import Results from './results/results';
+// import Reviews from './reviews/reviews';
 
 export default function Content(){
     return(
@@ -27,9 +28,11 @@ export default function Content(){
             <Places></Places>
             <IconsSection></IconsSection>
             <Include></Include>
+            <Results></Results>
+            {/* <Reviews></Reviews> */}
             <Services></Services>
             <FAQ></FAQ>
-            <Results></Results>
+            <Hero></Hero>
         </>
     )
 }
