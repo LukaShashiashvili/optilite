@@ -1,0 +1,63 @@
+.container{
+    width: 110em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    gap: 1.5em;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header :first-child{
+    font-weight: 500;
+}
+.header :last-child{
+    font-weight: 800;
+}
+.boxes{
+    display: flex;
+    gap: 3em;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1vw;
+    width: 24vw;
+    padding: 3vw 0;
+    border: 0.1em solid rgb(0, 149, 255);
+    border-radius: 2em;
+}
+.photo{
+    /* transform: translateY(-7.5vw); */
+}
+.box:hover{
+    background-color: #f7f7f7;
+}
+.price{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.price :last-child{
+    font-weight: bold;
+    font-size: 1.8vw;
+}
+.ship{
+    display: flex;
+    flex-direction: column;
+    color: darkblue;
+    font-weight: 700;
+}
+.buyButtons{
+    display: flex;
+    gap: 1vw;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1919px) {
+
+}

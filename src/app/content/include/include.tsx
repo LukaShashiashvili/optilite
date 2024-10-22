@@ -26,7 +26,7 @@ export default function Include(){
                             <span>1x User<div>Manual</div></span>
                         </div>
                     </div>
-                    <Link className={styles.button} href={'https://4a5406-31.myshopify.com/products/asymmetric-office-eye-protection-screen-light-electrodeless-dimming'}>
+                    <Link className={styles.button} href={'#Buy'}>
                         <Button title={'GET OPTILITE PRO NOW ⚡'}></Button>
                     </Link>
                 </div>

@@ -13,6 +13,7 @@ import IconsSection from './iconsSection/iconsSection';
 import FAQ from './FAQ/FAQ';
 import Results from './results/results';
 import Footer from '../footer/footer';
+import Buy from './buy/buy';
 
 export default function Content(){
     return(
@@ -29,6 +30,7 @@ export default function Content(){
             <IconsSection></IconsSection>
             <Include></Include>
             <Results></Results>
+            <Buy></Buy>
             <Services></Services>
             <FAQ></FAQ>
             <Hero></Hero>

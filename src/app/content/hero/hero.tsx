@@ -16,7 +16,7 @@ export default function Hero(){
                         <h1>TOP SCREEN HANGING LIGHT BAR FOR EYE COMFORT</h1>
                         <span>Create a warm, inviting workspace with eye protection hanging light bar designed especially for screen users.</span>
                     </div>
-                <Link className={styles.button} href={'https://4a5406-31.myshopify.com/products/asymmetric-office-eye-protection-screen-light-electrodeless-dimming'}>
+                <Link className={styles.button} href={'#Buy'}>
                     <Button title={'GET OPTILITE PRO NOW⚡'}></Button>
                 </Link>
             </div>

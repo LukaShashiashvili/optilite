@@ -13,7 +13,7 @@ export default function InfoThird(){
                 <p>
                     This combination of specifications and functionality makes Optilite Pro an essential tool for creating an efficient and pleasant environment.
                 </p>
-                <Link className={styles.button} href={'https://4a5406-31.myshopify.com/products/asymmetric-office-eye-protection-screen-light-electrodeless-dimming'}>
+                <Link className={styles.button} href={'#Buy'}>
                     <Button clName={styles.button} title={'GET OPTILITE PRO NOW ⚡'}></Button>
                </Link>
             </div>
