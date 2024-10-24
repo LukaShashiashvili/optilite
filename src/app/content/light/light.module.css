@@ -37,7 +37,20 @@
     }
     .photo{
         align-self: center;
-        width: 50vw;
+        width: 60vw;
         height: 50vw;
     }
 }
+@media screen and  (max-width: 420px) {
+    .text{
+        margin: 0;
+        align-items: center;
+    }
+    .text h2{
+        font-size: 120%;
+    }
+    .text p{
+        font-size: 80%;
+        text-align: center;
+    }
+ }

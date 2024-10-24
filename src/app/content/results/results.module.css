@@ -53,3 +53,15 @@
         width: 60vw;
     }
 }
+
+@media screen and  (max-width: 420px) {
+    .header{
+        font-size: 120%;
+    }
+    .button{
+        font-size: 80%;
+    }
+    .info{
+        font-size: 60%;
+    }
+ }

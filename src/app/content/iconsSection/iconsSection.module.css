@@ -34,3 +34,15 @@
         flex-direction: column;
     }
 }
+@media screen and  (max-width: 420px) {
+    .icon img{
+        width: 40%;
+    }
+    .icon h5{
+        font-size: 100%;
+        text-align: center;
+    }
+    .icon p{
+        font-size: 80%;
+    }
+ }

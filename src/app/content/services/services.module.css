@@ -30,4 +30,18 @@
         align-items: center;
         width: 100vw;
     }
+    .box{
+        width: 80vw;
+    }
 }
+@media screen and  (max-width: 420px) {
+    .box{
+        text-align: center;
+    }
+    .box h4{
+        font-size: 90%;
+    }
+    .box p{
+        font-size: 70%;
+    }
+ }

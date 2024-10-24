@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import styles from './footer.module.css';
 import Image from 'next/image';
+import PaymentMethods from '../components/payments/payments';
 
 export default function Footer(){
     return(
@@ -15,13 +16,7 @@ export default function Footer(){
                     <Link href={'../pages/contact'}>Contact Information</Link>
                 </div>
             </div>
-            <div className={styles.icons}>
-                <Image src={''} alt={'payment'} height={100} width={100}></Image>
-                <Image src={''} alt={'payment'} height={100} width={100}></Image>
-                <Image src={''} alt={'payment'} height={100} width={100}></Image>
-                <Image src={''} alt={'payment'} height={100} width={100}></Image>
-                <Image src={''} alt={'payment'} height={100} width={100}></Image>
-            </div>
+            <PaymentMethods></PaymentMethods>
         </div>
     )
 }

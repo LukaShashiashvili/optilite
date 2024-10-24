@@ -47,24 +47,44 @@
     padding: 0.4em;
     box-sizing: content-box;
 }
+.photoResp{
+    display: none;
+}
 
 @media screen and (max-width: 576px) {
     .icons{
-        flex-direction: column;
-        gap: 10vw;
-    }
-    .photo{
-        width: 100vw;
-        height: 90vw;
-    }
+        font-size: 70%;
+    } 
 }
 
 @media screen and (max-width: 768px) {
     .container{
         flex-direction: column;
         align-items: flex-start;
+        text-align: center;
+        margin-bottom: 1em;
     }
     .left{
         width: 100vw;
     }
+    .down{
+        gap: 0;
+    }
+    .photoResp{
+        display: inline-block;
+        width: 70vw;
+        height: 60vw;
+        align-self: center;
+    }
+    .photo{
+        display: none;
+    }
 }
+@media screen and  (max-width: 420px) {
+    .text h2{
+        font-size: 120%;
+    }
+    .text p{
+        font-size: 80%;
+    }
+ }

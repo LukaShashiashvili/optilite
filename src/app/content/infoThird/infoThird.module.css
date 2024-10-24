@@ -46,6 +46,10 @@
 @media screen and (max-width: 680px){
     .icons{
         grid-template-columns: auto auto;
+        gap: 1em;
+    }
+    .icons div{
+        padding: 1em;
     }
 }
 
@@ -65,5 +69,21 @@
         flex-direction: column;
         gap: 15vw;
     }
-
 }
+@media screen and  (max-width: 420px) {
+    .mainH{
+        text-align: center;
+    }
+    .mainH h2{
+        font-size: 120%;
+    }
+    .mainH p{
+        font-size: 80%;
+    }
+    .icons img{
+        width: 40%;
+    }
+    .icons span{
+        font-size: 80%;
+    }
+ }

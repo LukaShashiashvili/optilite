@@ -39,3 +39,13 @@
         align-self: center;
     }
 }
+@media screen and  (max-width: 420px) {
+    .text h2{
+        font-size: 120%;
+        text-align: center;
+    }
+    .text p{
+        font-size: 80%;
+        text-align: center;
+    }
+ }

@@ -15,17 +15,18 @@ export default function Include(){
                     <div className={styles.icons}>
                         <div className={styles.items}>
                             <Image className={styles.item} src={'/miniProduct.png'} alt={''} width={70} height={20}></Image>
-                            <span>1x Light<div>Bar</div></span>
+                            <div>1x Light<div>Bar</div></div>
                         </div>
                         <div className={styles.items}>
                             <Image className={styles.item} src={'/usb.png'} alt={''} width={40} height={30}></Image>
-                            <span>1x USB<div>Cable</div></span>
+                            <div>1x USB<div>Cable</div></div>
                         </div>
                         <div className={styles.items}>
                             <Image className={styles.item} src={'/manual.png'} alt={''} width={45} height={40}></Image>
-                            <span>1x User<div>Manual</div></span>
+                            <div>1x User<div>Manual</div></div>
                         </div>
                     </div>
+                    <Image className={styles.photoResp} src={'/includePhoto.png'} alt={''} width={500} height={500}></Image>
                     <Link className={styles.button} href={'#Buy'}>
                         <Button title={'GET OPTILITE PRO NOW ⚡'}></Button>
                     </Link>

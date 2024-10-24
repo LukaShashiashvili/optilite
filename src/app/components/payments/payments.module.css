@@ -1,0 +1,10 @@
+.container{
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+@media screen and (max-width: 420px) {
+    .container img{
+        width: 5vw;
+    }
+}

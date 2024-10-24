@@ -34,23 +34,48 @@
     width: 40vw;
     height: 27vw;
 }
+.photoResp{
+    display: none;
+}
 .button{
     align-self: flex-start;
 }
 
+@media screen and (max-width: 420px) {
+    .paragraph{
+        text-align: center;
+    }
+    .paragraph h1{
+        font-size: 100%;
+    }
+}
 
 @media screen and (max-width: 1024px) {
     .container{
         flex-direction: column;
         gap: 2em;
+        padding: 0;
     }
     .photo{
-        width: 85vw;
-        height: 75vw;
+        display: none;
+    }
+    .photoResp{
+        width: 90vw;
+        height: 70vw;
+        display: inline-block;
+        margin-bottom: 1.5em;
+        margin-top: 1.5em;
+        align-self: center;
     }
     .text{
         width: 100vw;
-    }  
+    } 
+    .paragraph{
+        padding: 0 1em;
+    }
+    .button{
+        align-self: center;
+    }
 }
 @media screen and (min-width: 1024px) and (max-width: 1919px) {
     .photo{

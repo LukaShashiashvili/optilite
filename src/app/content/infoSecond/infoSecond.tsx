@@ -8,7 +8,7 @@ export default function infoSecond(){
         <main className={styles.container}>
             <div className={styles.text}>
                 <span>This product is only available online!</span>
-                <div>
+                <div className={styles.header}>
                     <p>PROTECT YOURSELF</p>
                     <h2>RA80 HIGH COLOUR RENDERING INDEX</h2>
                     <h3>Allows you to see the true colour</h3>

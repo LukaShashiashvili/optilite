@@ -21,3 +21,29 @@
     gap: 1.5vw;
     color: rgb(0, 149, 255);
 }
+
+@media screen and (max-width: 768px) {
+    .container{
+        padding: 2em;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .left{
+        display: none;
+    }
+}
+@media screen and (max-width: 420px) {
+    .container{
+        flex-direction: column;
+        align-items: center;
+        font-size: 80%;
+    }
+    .container :last-child{
+        gap: 3em;
+    }
+    .left{
+        display: inline-block;
+        width: 40vw;
+    }
+}

@@ -45,7 +45,7 @@
 }
 .price :last-child{
     font-weight: bold;
-    font-size: 1.8vw;
+    font-size: 1.8em;
 }
 .ship{
     display: flex;
@@ -58,6 +58,29 @@
     gap: 1vw;
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1919px) {
+@media screen and (max-width: 768px) {
+    .boxes{
+        flex-direction: column;
+        gap: 1em;
+    }
+    .box{
+        width: 60vw;
+    }
+}
 
+@media screen and (max-width: 420px) {
+    .box img{
+        width: 40%;
+        height: 40%;
+    }
+    .box h3{
+        font-size: 100%;
+        text-align: center;
+    }
+    .header h2{
+        font-size: 120%;
+    }
+    .price span, .price :last-child, .ship{
+        font-size: 80%;
+    }
 }

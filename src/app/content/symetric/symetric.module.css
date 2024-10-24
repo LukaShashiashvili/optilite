@@ -79,3 +79,12 @@
         border-bottom: 1px solid white;
     }
 }
+@media screen and  (max-width: 420px) {
+    .text h2, .text h3{
+        font-size: 120%;
+        text-align: center;
+    }
+    .boxText{
+        font-size: 80%;
+    }
+ }

@@ -26,7 +26,6 @@
 @media screen and (max-width: 576px) {
     .text{
         width: 100vw;
-        margin: 5em auto 5em auto;
     }
 }
 
@@ -40,6 +39,8 @@
     .text{
         width: 50vw;
         height: 100%;
-        margin-bottom: 5em;
+        font-size: 60%;
+        align-self: center;
+        padding-top: 0;
     }
 }
