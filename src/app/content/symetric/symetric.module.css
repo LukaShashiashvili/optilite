@@ -56,6 +56,9 @@
         font-size: 2em;
         align-self: center;
     }
+    .text h2, .text h3{
+        text-align: center;
+    }
     .box{
         width: 70vw;
         align-self: center;
@@ -79,7 +82,7 @@
         border-bottom: 1px solid white;
     }
 }
-@media screen and  (max-width: 420px) {
+@media screen and  (max-width: 430px) {
     .text h2, .text h3{
         font-size: 120%;
         text-align: center;

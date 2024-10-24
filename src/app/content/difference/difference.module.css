@@ -19,13 +19,16 @@
 .text p{
     font-size: 1.3em;
 }
-
-@media screen and (max-width: 789px) {
-    .text{
-        width: 100vw;
+.compareslider{
+    width: 35vw;
+    height: 25vw;
+}
+@media screen and (max-width: 1024px) {
+    .compareslider{
+        width: 40vw;
+        height: 25vw;
     }
 }
-
 @media screen and (max-width: 924px) {
     .container{
         flex-direction: column;
@@ -37,6 +40,11 @@
     }
     .photo{
         align-self: center;
+    }
+}
+@media screen and (max-width: 789px) {
+    .text{
+        width: 100vw;
     }
 }
 @media screen and  (max-width: 420px) {

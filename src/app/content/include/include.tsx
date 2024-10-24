@@ -14,7 +14,7 @@ export default function Include(){
                 <div className={styles.down}>
                     <div className={styles.icons}>
                         <div className={styles.items}>
-                            <Image className={styles.item} src={'/miniProduct.png'} alt={''} width={70} height={20}></Image>
+                            <Image className={styles.item} src={'/product.png'} alt={''} width={65} height={50}></Image>
                             <div>1x Light<div>Bar</div></div>
                         </div>
                         <div className={styles.items}>

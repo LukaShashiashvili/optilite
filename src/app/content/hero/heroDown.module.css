@@ -46,20 +46,7 @@
 }
 
 
-@media screen and (max-width: 357px) {
-    .box{
-        flex-direction: column;
-        overflow: scroll;
-        width: auto;
-    }
-    .icons li{
-        font-size: 60%;
-    }
-    .icons li img{
-        width: 7vw;
-        height: 7vw;
-    }
-}
+
 
 @media screen and (max-width: 1024px) {
     .container{
@@ -78,4 +65,18 @@
    .container{
         margin-top: 4em;
    }
+}
+@media screen and (max-width: 362px) {
+    .box{
+        flex-direction: column;
+        overflow: scroll;
+        width: auto;
+    }
+    .icons li{
+        font-size: 60%;
+    }
+    .icons li img{
+        width: 7vw;
+        height: 7vw;
+    }
 }

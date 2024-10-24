@@ -5,7 +5,7 @@
     width: 100%;
     display: flex;
     justify-content: space-around;
-    background-color: black;
+    background-color: rgb(7, 7, 7);
     color: white;
 }
 .photo{ 
@@ -61,7 +61,8 @@
     }
     .photo{
         width: 80vw;
-        height: 80vw;
+        height: 50vw;
+        margin-bottom: 1.5em;
     }
     .htw{
         margin-left: 1em;

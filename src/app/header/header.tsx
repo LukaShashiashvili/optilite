@@ -9,9 +9,9 @@ export default function header(){
                 <Image src={'/delivery.png'} alt="" width={60} height={40}></Image>
                 <div>
                     <span className={styles.diff}>
-                        FREE SHIPPING
+                        FREE SHIPPING IN
                     </span>
-                    <div>IN UNITED STATES!</div>
+                    <div>THE UNITED STATES!</div>
                 </div>
             </div>
             <Link href= {'/'} className={styles.mid}>

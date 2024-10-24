@@ -5,7 +5,7 @@ import Image from 'next/image';
 export default function HTW(){
     return (
         <main className={styles.container}>
-            <Image className={styles.photo} src={'/htw.png'} alt={''} width={550} height={500}></Image>
+            <Image className={styles.photo} src={'/laptop.png'} alt={''} width={750} height={500}></Image>
             <div className={styles.text}>
                 <h2>MAIN FEATURES</h2>
                 <ul className={styles.htw}>

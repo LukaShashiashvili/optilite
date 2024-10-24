@@ -4,7 +4,7 @@ import Image from 'next/image';
 export default function Symetric(){
     return(
         <main className={styles.container}>
-            <Image className={styles.photo} src={'/phone.png'} alt={''} width={550} height={500}></Image>
+            <Image className={styles.photo} src={'/phone.jpg'} alt={''} width={550} height={400}></Image>
             <div className={styles.text}>
                 <div className={styles.headers}>
                     <h2>

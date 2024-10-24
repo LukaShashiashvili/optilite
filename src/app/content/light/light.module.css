@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 .container{
-    background-color: black;
+    /* background-color: black; */
+    background: linear-gradient(155deg,black,black, white);
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -36,7 +37,7 @@
         padding-top: 1em;
     }
     .photo{
-        align-self: center;
+        align-self: flex-end;
         width: 60vw;
         height: 50vw;
     }

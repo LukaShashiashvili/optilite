@@ -1,6 +1,7 @@
 import Product from '@/app/components/product/product';
 import styles from './buy.module.css';
 import Image from 'next/image';
+import PaymentMethods from '@/app/components/payments/payments';
 
 export default function Buy(){
     return(
@@ -29,6 +30,7 @@ export default function Buy(){
                     <div className={styles.payments}>
 
                     </div>
+                    <PaymentMethods></PaymentMethods>
                 </div>
                 <div className={styles.box}>
                     <Image className={styles.photo} src={'/product.png'} alt={''} width={200} height={150}></Image>
@@ -49,6 +51,7 @@ export default function Buy(){
                     <div className={styles.payments}>
 
                     </div>
+                    <PaymentMethods></PaymentMethods>
                 </div>
                 <div className={styles.box}>
                     <Image src={'/product.png'} alt={''} width={200} height={150}></Image>
@@ -69,6 +72,7 @@ export default function Buy(){
                     <div className={styles.payments}>
 
                     </div>
+                    <PaymentMethods></PaymentMethods>
                 </div>
             </div>
         </main>

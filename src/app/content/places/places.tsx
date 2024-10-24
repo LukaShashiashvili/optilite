@@ -5,10 +5,10 @@ export default function Places(){
     return(
         <main className={styles.container}>
             <div className={styles.left}>
-                <Image src={'/places/cafe.png'} alt='' width={200} height={200}></Image>
-                <Image src={'/places/bedroom.png'} alt='' width={200} height={200}></Image>
-                <Image src={'/places/living.png'} alt='' width={200} height={200}></Image>
-                <Image src={'/places/store.png'} alt='' width={200} height={200}></Image>
+                <Image src={'/places/1.jpg'} alt='' width={200} height={150}></Image>
+                <Image src={'/places/2.jpg'} alt='' width={150} height={200}></Image>
+                <Image src={'/places/4.jpg'} alt='' width={170} height={150}></Image>
+                <Image src={'/places/3.jpg'} alt='' width={200} height={150}></Image>
             </div>
             <div className={styles.text}>
                 <div className={styles.headers}>

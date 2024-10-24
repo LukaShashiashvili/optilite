@@ -32,7 +32,7 @@
 }
 .photo{
     width: 40vw;
-    height: 27vw;
+    height: 35vw;
 }
 .photoResp{
     display: none;
@@ -79,8 +79,8 @@
 }
 @media screen and (min-width: 1024px) and (max-width: 1919px) {
     .photo{
-        width: 45vw;
-        height: 32vw;
+        width: 40vw;
+        height: 35vw;
     }
     .text h1{
         width: 45vw;
