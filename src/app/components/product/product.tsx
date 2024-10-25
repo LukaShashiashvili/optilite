@@ -3,10 +3,10 @@ import React, { useState, useEffect } from 'react';
 import Client from 'shopify-buy';
 import styles from './product.module.css';
 
-interface CheckoutButtonProps {
+interface CheckoutButtonProps{
   variantId: string;
-  quantity: number;
   title: string;
+  quantity: number;
 }
 
 const Product: React.FC<CheckoutButtonProps> = ({ variantId, quantity = 1, title }) => {
@@ -32,7 +32,8 @@ const Product: React.FC<CheckoutButtonProps> = ({ variantId, quantity = 1, title
   }, [variantId, quantity]);
 
   return (
-    <button
+    <div className={styles.container}>
+      <button
       className={styles.button}
       onClick={() => {
         if (checkoutUrl) {
@@ -43,6 +44,7 @@ const Product: React.FC<CheckoutButtonProps> = ({ variantId, quantity = 1, title
     >
       {title}
     </button>
+    </div>    
   );
 };
 

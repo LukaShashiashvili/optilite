@@ -13,64 +13,97 @@ export default function Buy(){
             <div className={styles.boxes}>
                 <div className={styles.box}>
                     <Image src={'/product.png'} alt={''} width={200} height={150}></Image>
+                    <h4 className={styles.type1}>MOST CHOICE</h4>
                     <h3>BUY 1 OPTILITE PRO</h3>
                     <div className={styles.price}>
-                        <span>Standard Price</span>
-                        <span>$49.99</span>
+                        <div className={styles.discount1}>
+                            <span>Sale</span>
+                            <span>$49.99</span>
+                        </div>
+                        <div className={styles.standardprice}>
+                            <span>Standard Price</span>
+                            <span>$74.99</span>
+                        </div>
                     </div>
                     <div className={styles.ship}>
-                        <span>FREE SHIPPING</span>
+                        <span>+ FREE SHIPPING</span>
                         <span>IN THE USA</span> 
                     </div>
-                    <span>Special online price!</span>
-                    <div className={styles.buyButtons}>
-                        <Product variantId={'49446916391210'} quantity={1} title={'BUY BLACK OPTILITE'}></Product>
-                        <Product variantId={'49446916423978'} quantity={1} title={'BUY WHITE OPTILITE'}></Product>
+                    <div className={styles.special}>
+                        <span className={styles.sale1}>SAVE 35%</span>
+                        <span className={styles.specialprice}>Special online price!</span>
                     </div>
-                    <div className={styles.payments}>
-
+                    <div className={styles.remaining}>
+                        <Image className={styles.clock} src={'/icons/clock.svg'} alt={''} width={15} height={15}></Image>
+                        <span>Sale will end soon!</span>
+                    </div>
+                    <div className={styles.buyButtons}>
+                        <Product variantId={'49446916391210'} title={'BUY BLACK'} quantity={1}></Product>
+                        <Product variantId={'49446916423978'} title={'BUY WHITE'} quantity={1}></Product>
                     </div>
                     <PaymentMethods></PaymentMethods>
                 </div>
                 <div className={styles.box}>
-                    <Image className={styles.photo} src={'/product.png'} alt={''} width={200} height={150}></Image>
+                    <Image className={styles.photo} src={'/product2.png'} alt={''} width={200} height={150}></Image>
+                    <h4 className={styles.type2}>MOST POPULAR</h4>
                     <h3>BUY 2 OPTILITE PRO</h3>
                     <div className={styles.price}>
-                        <span>Best Price</span>
-                        <span>$99.98</span>
+                        <div className={styles.discount2}>
+                            <span>Sale</span>
+                            <span>$109.98</span>
+                        </div>
+                        <div className={styles.standardprice}>
+                            <span>Standard Price</span>
+                            <span>$74.99</span>
+                        </div>
                     </div>
                     <div className={styles.ship}>
-                        <span>FREE SHIPPING</span>
+                        <span>+ FREE SHIPPING</span>
                         <span>IN THE USA</span> 
                     </div>
-                    <span>Special online price!</span>
-                    <div className={styles.buyButtons}>
-                        <Product variantId={'49446916391210'} quantity={2} title={'BUY BLACK OPTILITE'}></Product>
-                        <Product variantId={'49446916423978'} quantity={2} title={'BUY WHITE OPTILITE'}></Product>
+                    <div className={styles.special}>
+                        <span className={styles.sale2}>SAVE 35%</span>
+                        <span className={styles.specialprice}>Special online price!</span>
                     </div>
-                    <div className={styles.payments}>
-
+                    <div className={styles.remaining}>
+                        <Image className={styles.clock} src={'/icons/clock.svg'} alt={''} width={15} height={15}></Image>
+                        <span>Sale will end soon!</span>
+                    </div>
+                    <div className={styles.buyButtons}>
+                        <Product variantId={'49446916391210'} title={'BUY BLACK'} quantity={2}></Product>
+                        <Product variantId={'49446916423978'} title={'BUY WHITE'} quantity={2}></Product>
                     </div>
                     <PaymentMethods></PaymentMethods>
                 </div>
                 <div className={styles.box}>
-                    <Image src={'/product.png'} alt={''} width={200} height={150}></Image>
+                    <Image src={'/product3.png'} alt={''} width={200} height={150}></Image>
+                    <h4 className={styles.type3}>BEST BUNDLE</h4>
                     <h3>BUY 3 OPTILITE PRO</h3>
                     <div className={styles.price}>
-                        <span>Popular Price</span>
-                        <span>$149.97</span>
+                        <div className={styles.discount3}>
+                            <span>Sale</span>
+                            <span>$164.97</span>
+                        </div>
+                        <div className={styles.standardprice}>
+                            <span>Standard Price</span>
+                            <span>$74.99</span>
+                        </div>
                     </div>
                     <div className={styles.ship}>
-                        <span>FREE SHIPPING</span>
+                        <span>+ FREE SHIPPING</span>
                         <span>IN THE USA</span> 
                     </div>
-                    <span>Special online price!</span>
-                    <div className={styles.buyButtons}>
-                        <Product variantId={'49446916391210'} quantity={3} title={'BUY BLACK OPTILITE'}></Product>
-                        <Product variantId={'49446916423978'} quantity={3} title={'BUY WHITE OPTILITE'}></Product>
+                    <div className={styles.special}>
+                        <span className={styles.sale3}>SAVE 35%</span>
+                        <span className={styles.specialprice}>Special online price!</span>
                     </div>
-                    <div className={styles.payments}>
-
+                    <div className={styles.remaining}>
+                        <Image className={styles.clock} src={'/icons/clock.svg'} alt={''} width={15} height={15}></Image>
+                        <span>Sale will end soon!</span>
+                    </div>
+                    <div className={styles.buyButtons}>
+                        <Product variantId={'49446916391210'} title={'BUY BLACK'} quantity={3}></Product>
+                        <Product variantId={'49446916423978'} title={'BUY WHITE'} quantity={3}></Product>
                     </div>
                     <PaymentMethods></PaymentMethods>
                 </div>
