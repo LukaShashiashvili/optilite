@@ -16,7 +16,7 @@ export default function IconsSection(){
             </div>
             <div className={styles.icon}>
                 <Image src={'/3.png'} alt={''} width={100} height={100}></Image>
-                <h5>Respectful and peaceful co-existence in shared space</h5>
+                <h5>Respectful & peaceful co-existence in shared space</h5>
                 <p>Allow more space to enjoy activities without disturbing others.</p>
             </div>
             <div className={styles.icon}>

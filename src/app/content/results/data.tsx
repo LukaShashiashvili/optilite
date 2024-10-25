@@ -31,8 +31,8 @@ export const data = [
     },
     {
         id: 7,
-        title: "Aesthetically Pleasing Workspace",
-        info: "The modern design enhances the overall look of the workspace, creating an inviting and inspiring environment."
+        title: "Greater Accessibility",
+        info: "Easy to carry and move, allowing for flexible use in various locations, whether at home, in the office or while traveling."
     },
     {
         id: 8,

@@ -1,13 +1,12 @@
 .container{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    gap: 1vw;
     align-items: center;
     width: 33em;
     height: 15em;
 }
 .box{
-
     display: flex;
     align-items: center;
     box-sizing: border-box;
@@ -15,7 +14,6 @@
     border: 2px rgb(0, 149, 255) solid;
     padding: 1em;
     border-radius: 1em;
-    margin-top: 1em;
 }
 .photo{
     border-radius: 3em;
@@ -45,9 +43,6 @@
     font-size: 0.85em;
 }
 
-
-
-
 @media screen and (max-width: 1024px) {
     .container{
         margin-top: 2em;
@@ -60,11 +55,6 @@
         width: 90vw;
         justify-content: space-around;
     }
-}
-@media screen and (min-width: 1024px) and (max-width: 1920px) {
-   .container{
-        margin-top: 4em;
-   }
 }
 @media screen and (max-width: 362px) {
     .box{

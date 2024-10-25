@@ -2,7 +2,7 @@
 
 .container{
     /* background-color: black; */
-    background: linear-gradient(155deg,black,black, white);
+    background: linear-gradient(155deg,#252525,#292929, white);
     display: flex;
     justify-content: space-between;
     width: 100%;

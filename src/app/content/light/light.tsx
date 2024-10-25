@@ -6,7 +6,7 @@ export default function Light(){
         <main className={styles.container}>
             <div className={styles.text}>
                 <h2>ASYMMETRIC LIGHT SOURCE DESIGN</h2>
-                <p>Provides focused illumination for the desktop area that deliberately refrains from casting light onto the device monitor, thereby ensuring optimal visibility and minimizing distractions.</p>
+                <p>Light is directed at a targeted angle, reducing glare, enhancing visual comfort by preventing harsh shadows and reflections.</p>
             </div>
             <Image className={styles.photo} src={'/light.png'} alt={''} width={600} height={400}></Image>
         </main>

@@ -21,16 +21,11 @@ export const data = [
     },
     {
       id: 5,
-      question: "Does OPTILITE PRO remember my last settings?",
-      answer: "Yes, the light memory function allows OPTILITE PRO to remember your last brightness and color settings, so you can easily return to your preferred lighting."
-    },
-    {
-      id: 6,
       question: "How is OPTILITE PRO powered?",
       answer: "OPTILITE PRO is USB powered, making it versatile and easy to use with various devices, such as laptops, power banks, or wall adapters."
     },
     {
-        id: 7,
+        id: 6,
         question: "Does OPTILITE PRO offer eco-friendly features?",
         answer: "Yes, the light is designed with energy-efficient LED technology, reducing environmental impact compared to traditional lighting options ensuring sustainable consumption."
     }

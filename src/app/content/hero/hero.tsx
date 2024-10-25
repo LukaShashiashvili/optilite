@@ -9,7 +9,7 @@ export default function Hero(){
     
     return(
         <main className={styles.container}>
-            <Image className={styles.photo} src={'/heroPhoto.png'} alt="photo" width={527} height={428}></Image>
+            <Image className={styles.photo} src={'/heroPhoto.png'} alt="photo" width={650} height={500}></Image>
             <div className={styles.right}>
                 <div className={styles.text}>
                     <div className={styles.paragraph}>

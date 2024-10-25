@@ -44,11 +44,11 @@ export default function InfoThird(){
                 </div>
                 <div>
                     <Image src={'/icons/7.png'} alt={''} width={50} height={50}></Image>
-                    <span>Light Color Mode</span>
+                    <span>3 Light Color Mode</span>
                 </div>
                 <div>
                     <Image src={'/icons/8.png'} alt={''} width={50} height={50}></Image>
-                    <span>Light Memory Function</span>
+                    <span>Timer Mode</span>
                 </div>
                 <div>
                     <Image src={'/icons/9.png'} alt={''} width={50} height={50}></Image>

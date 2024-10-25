@@ -11,7 +11,7 @@ export default function HTW(){
                 <ul className={styles.htw}>
                     <li>EASY SET-UP
                         <ul>
-                        Quick and hassle-free installation. The process takes just seconds, allowing you to set it up quickly and start using it right away.
+                            Quick and hassle-free installation. The process takes just seconds, allowing you to set it up quickly and start using it right away.
                         </ul>
                     </li>
                     <li>USB POWERED
@@ -21,22 +21,22 @@ export default function HTW(){
                     </li>
                     <li>STEPLESS DIMMING
                         <ul>
-                        Adjust the brightness level as you like. Free to adjust by touch control keys, long press <Image className={styles.power} src={'/power.svg'} alt={''} width={18} height={18}></Image> to adjust brightness freely and meet the brightness needs of different environment and different people.
+                            Adjust the brightness level to your exact preference. Simply long-press touch control key to smoothly change the light intensity to perfectly adapt to the lighting needs of different environment and different users.<Image className={styles.power} src={'/power.svg'} alt={''} width={18} height={18}></Image>
                         </ul>
                     </li>
                     <li>3 LIGHT COLOR MODE
                         <ul>
-                        Light Options create a tranquil ambiance that helps reduce stress and anxiety, making it perfect for relaxation after a long day.
+                            Allow users to easily switch between cool, neutral, and warm lighting, offering flexibility for different tasks and moods.
                         </ul>
                     </li>
-                    <li>BRIGHTNESS ADJUSTMENT
+                    <li>QUICK ACCESS TO FEATURES
                         <ul>
-                        Easy switch between warm and cool light to create the perfect ambiance.
+                        Touch mode provides instant access to features such as power on/off, dimming, color adjustments, timer setting, making it convenient for users to adjust their lighting settings instantly.
                         </ul>
                     </li>
                 </ul>
                 <p>*More information about the technical specifications is available in the file below.</p>
-                <Link className={styles.pdf} href={''}>
+                <Link className={styles.pdf} target='_blank' href={'https://pdfupload.io/docs/b5b1dd06'}>
                     <span>Technical specifications.pdf</span>
                     <span>📃</span>
                 </Link>

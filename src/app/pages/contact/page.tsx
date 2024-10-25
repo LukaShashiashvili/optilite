@@ -11,7 +11,7 @@ export default function Contact(){
             <div className={styles.content}>
                 <h3 className={styles.header}>Contact Information</h3>
                 <div className={styles.box}>
-                    <Link className={styles.link} href={'mailto:example@gmail.com'}><Image src={'/contact/mail.svg'} alt={''} width={30} height={30}></Image><span>optilitepro@gmail.com</span></Link>
+                    <Link className={styles.link} href={'mailto:support@optilite.pro'}><Image src={'/contact/mail.svg'} alt={''} width={30} height={30}></Image><span>support@optilite.pro</span></Link>
                     <Link className={styles.link} href={'facebook.com'}><Image src={'/contact/facebook.svg'} alt={''} width={30} height={30}></Image><span>Facebook</span></Link>
                     <Link className={styles.link} href={'youtube.com'}><Image src={'/contact/youtube.svg'} alt={''} width={30} height={30}></Image><span>Youtube</span></Link>
                     <Link className={styles.link} href={'instagram.com'}><Image src={'/contact/instagram.svg'} alt={''} width={30} height={30}></Image><span>Instagram</span></Link>

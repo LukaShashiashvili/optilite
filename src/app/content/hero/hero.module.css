@@ -2,7 +2,7 @@
     width: 110em;
     display: flex;
     gap: 10em;
-    margin: 4em auto;
+    margin: 0 auto;
     padding-top: 5em;
 }
 .right{
@@ -79,8 +79,9 @@
 }
 @media screen and (min-width: 1024px) and (max-width: 1919px) {
     .photo{
-        width: 40vw;
-        height: 35vw;
+        height: 45vw;
+        width: 45vw;
+        align-self: flex-end;
     }
     .text h1{
         width: 45vw;

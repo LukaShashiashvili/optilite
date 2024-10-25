@@ -24,6 +24,9 @@
     font-size: 0.6em;
     font-weight: 100;
 }
+.headers h3{
+    font-size: 1.8em;
+}
 .photo{
     align-self: flex-end;
 }

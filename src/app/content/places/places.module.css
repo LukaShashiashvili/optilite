@@ -7,14 +7,6 @@
     background-color: black;
     color: white;
 }
-.left{
-    display: grid;
-    grid-template-columns: auto auto;
-    gap: 1em;
-}
-.left img:hover{
-    transform: scale(1.1);
-}
 .text{
     display: flex;
     flex-direction: column;

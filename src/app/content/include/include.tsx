@@ -9,7 +9,7 @@ export default function Include(){
             <div className={styles.left}>
                 <div className={styles.text}>
                     <h2>WHAT&apos;S INCLUDED</h2>
-                    <p>The package will include the Screen Hanging light, USB cable, user manual, Once it arrives, all you need to do is open the box and push the button to turn it on.</p>
+                    <p>The package will include the screen hanging light, USB cable, user manual, Once it arrives, all you need to do is open the box and push the button to turn it on.</p>
                 </div>
                 <div className={styles.down}>
                     <div className={styles.icons}>

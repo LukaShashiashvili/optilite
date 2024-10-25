@@ -16,7 +16,7 @@
 .text h2{
     font-size: 3em;
 }
-.text p{
+.paragraph{
     font-size: 1.3em;
 }
 .compareslider{
@@ -52,7 +52,7 @@
         font-size: 120%;
         text-align: center;
     }
-    .text p{
+    .paragraph{
         font-size: 80%;
         text-align: center;
     }
