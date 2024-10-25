@@ -10,3 +10,11 @@
     margin: 4em auto;
     padding-top: 5em;
 }
+.bold{
+    font-weight: bold;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}

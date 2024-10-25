@@ -50,7 +50,10 @@
     justify-content: space-between;
 }
 
-
+.pdf span{
+    text-decoration: underline;
+    color: rgba(255, 255, 255, 0.7);
+}
 
 @media screen and (max-width: 768px) {
     .text{

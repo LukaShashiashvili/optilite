@@ -22,7 +22,7 @@ export default function Include(){
                             <div>1x USB<div>Cable</div></div>
                         </div>
                         <div className={styles.items}>
-                            <Image className={styles.item} src={'/manual.png'} alt={''} width={45} height={40}></Image>
+                            <Image className={styles.item} src={'/manual.png'} alt={''} width={65} height={50}></Image>
                             <div>1x User<div>Manual</div></div>
                         </div>
                     </div>
