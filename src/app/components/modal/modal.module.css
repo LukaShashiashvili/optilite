@@ -32,11 +32,11 @@
     left: 50%;
     transform: translate(-50%, -50%);
     background: #f1f1f1;
-    padding: 2em 1em;
+    padding: 0.5em 1em;
     border-radius: 1vw;
     max-width: 50vw;
     min-width: 30vw;
-    min-height: 40vw;
+    min-height: 30vw;
     z-index: 2;
     overflow-y: scroll;
 }
@@ -58,6 +58,7 @@
 }
 .headers h3{
     color: black;
+    text-align: center;
 }
 
 .stepscontainer {
@@ -108,7 +109,6 @@
 }
 
 
-
 @media screen and (min-width: 1440px) {
     .btnmodal{
         font-size: 1.5em;
@@ -143,16 +143,20 @@
         max-width: 90vw;
         min-width: 70vw;
         min-height: 60vw;
+        padding: 0 1em;
      }
 }
 @media screen and (max-width: 540px) {
     .modalcontent{
-       min-height: 100vw;
-       min-width: 80vw;
+       min-height: 90vw;
+       min-width: 60vw;
     }
 }
 @media screen and (max-width: 420px) {
     .stepscontainer, .stepstext{
         display: none;
+    }
+    .headers h3{
+        font-size: 150%;
     }
 }

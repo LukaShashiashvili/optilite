@@ -56,6 +56,11 @@
         justify-content: space-around;
     }
 }
+@media screen and (max-width: 420px) {
+    .box{
+        display: none;
+    }
+    }
 @media screen and (max-width: 362px) {
     .box{
         flex-direction: column;

@@ -33,7 +33,6 @@ export default function Content(){
             <Buy></Buy>
             <Services></Services>
             <FAQ></FAQ>
-            <Hero></Hero>
         </>
     )
 }

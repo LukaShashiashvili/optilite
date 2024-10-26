@@ -51,6 +51,18 @@
     font-size: 1.3em;
 }
 
+@media screen and (max-width:924px) {
+    .container{
+        flex-direction: column;
+        gap: 1em;
+        padding-bottom: 1em;
+    }
+    .photo{
+        align-self: center;
+        border-bottom: 1px solid white;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .container{
         justify-content: baseline;
@@ -63,7 +75,7 @@
         text-align: center;
     }
     .box{
-        width: 70vw;
+        width: 80vw;
         align-self: center;
     }
     .camera{
@@ -74,20 +86,10 @@
     }
 }
 
-@media screen and (max-width:924px) {
-    .container{
-        flex-direction: column;
-        gap: 1em;
-        padding-bottom: 1em;
-    }
-    .photo{
-        align-self: center;
-        border-bottom: 1px solid white;
-    }
-}
+
 @media screen and  (max-width: 430px) {
     .text h2, .text h3{
-        font-size: 120%;
+        font-size: 150%;
         text-align: center;
     }
     .boxText{

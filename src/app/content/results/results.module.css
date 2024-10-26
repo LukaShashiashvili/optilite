@@ -28,6 +28,7 @@
     padding-bottom: 0.5em;
     border: none;
     outline: none;
+    text-align: start;
 }
 .button:hover{
     cursor: pointer;
@@ -56,12 +57,13 @@
 
 @media screen and  (max-width: 420px) {
     .header{
-        font-size: 120%;
+        font-size: 150%;
     }
-    .button{
-        font-size: 80%;
+    .button,.box{
+        font-size: 90%;
+        width: 70vw;
     }
     .info{
-        font-size: 60%;
+        font-size: 70%;
     }
  }

@@ -3,7 +3,7 @@
     display: flex;
     gap: 10em;
     margin: 0 auto;
-    padding-top: 5em;
+    margin-top: 3em;
 }
 .right{
     display: flex;
@@ -41,14 +41,7 @@
     align-self: flex-start;
 }
 
-@media screen and (max-width: 420px) {
-    .paragraph{
-        text-align: center;
-    }
-    .paragraph h1{
-        font-size: 100%;
-    }
-}
+
 
 @media screen and (max-width: 1024px) {
     .container{
@@ -61,7 +54,7 @@
     }
     .photoResp{
         width: 90vw;
-        height: 70vw;
+        height: 90vw;
         display: inline-block;
         margin-bottom: 1.5em;
         margin-top: 1.5em;
@@ -89,5 +82,13 @@
     .text p, .text div{
         margin: 30px 0;
         width: 45vw;
+    }
+}
+@media screen and (max-width: 420px) {
+    .paragraph{
+        text-align: center;
+    }
+    .paragraph h1{
+        font-size: 170%;
     }
 }

@@ -18,7 +18,7 @@ export default function Include(){
                             <div>1x Light<div>Bar</div></div>
                         </div>
                         <div className={styles.items}>
-                            <Image className={styles.item} src={'/usb.png'} alt={''} width={40} height={30}></Image>
+                            <Image className={styles.item} src={'/usb.png'} alt={''} width={65} height={50}></Image>
                             <div>1x USB<div>Cable</div></div>
                         </div>
                         <div className={styles.items}>

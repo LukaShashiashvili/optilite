@@ -32,15 +32,18 @@
 @media screen and (max-width: 768px) {
     .container{
         flex-direction: column;
+        padding-top: 2em;
+        padding-bottom: 2em;
     }
     .photo{
         display: none;
     }
     .text{
-        width: 50vw;
+        width: 70vw;
         height: 100%;
         font-size: 60%;
         align-self: center;
-        padding-top: 0;
+        padding: 0;
+        margin: 0;
     }
 }

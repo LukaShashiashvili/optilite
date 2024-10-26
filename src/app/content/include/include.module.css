@@ -51,11 +51,7 @@
     display: none;
 }
 
-@media screen and (max-width: 576px) {
-    .icons{
-        font-size: 70%;
-    } 
-}
+
 
 @media screen and (max-width: 768px) {
     .container{
@@ -80,9 +76,17 @@
         display: none;
     }
 }
+@media screen and (max-width: 576px) {
+    .text{
+        gap: 1em;
+    }
+    .icons{
+        font-size: 70%;
+    } 
+}
 @media screen and  (max-width: 420px) {
     .text h2{
-        font-size: 120%;
+        font-size: 150%;
     }
     .text p{
         font-size: 80%;

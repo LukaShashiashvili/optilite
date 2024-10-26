@@ -26,8 +26,8 @@
 @media screen and (max-width: 1024px) {
     .compareslider{
         align-self: center;
-        width: 55vw;
-        height: 40vw;
+        width: 95vw;
+        height: 70vw;
     }
 }
 @media screen and (max-width: 924px) {

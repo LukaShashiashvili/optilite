@@ -25,24 +25,26 @@
 
 @media screen and (max-width: 768px) {
     .container{
-        flex-direction: column;
-        gap: 5em;
+        flex-direction: column-reverse;
+        gap: 2em;
     }
     .left img{
-        width: 80vw;
-        height: 65vw;
+        width: 90vw;
+        height: 75vw;
     }
     .text{
-        width: 70vw;
+        width: 80vw;
     }
 }
 @media screen and  (max-width: 420px) {
     .text h2, .text h3{
-        font-size: 120%;
+        font-size: 150%;
         text-align: center;
     }
     .text p{
         font-size: 80%;
-        text-align: center;
+    }
+    .text{
+        gap: 1em;
     }
  }

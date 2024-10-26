@@ -69,11 +69,17 @@
     .container{
         text-align: center;
     }
+    .header{
+        line-height: normal;
+    }
     .text div p, .header h2, .header h3{
         font-size: 120%;
     }
     .text p{
         font-size: 100%;
         align-self: center;
+    }
+    .photo{
+        height: 70vw;
     }
  }
