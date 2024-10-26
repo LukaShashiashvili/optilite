@@ -1,9 +1,7 @@
 'use client'
-import Product, { variantOptions } from '@/app/components/product/product';
 import styles from './buy.module.css';
 import Image from 'next/image';
 import PaymentMethods from '@/app/components/payments/payments';
-import ProductStatic from '@/app/components/product/productStatic';
 import Modal from '@/app/components/modal/modal';
 
 export default function Buy(){
@@ -25,7 +23,7 @@ export default function Buy(){
                         </div>
                         <div className={styles.standardprice}>
                             <span>Standard Price</span>
-                            <span>$77.99</span>
+                            <span>$79</span>
                         </div>
                     </div>
                     <div className={styles.ship}>
@@ -41,7 +39,7 @@ export default function Buy(){
                         <span>Sale will end soon!</span>
                     </div>
                     <div className={styles.buyButtons}>
-                    <Modal quantity={1}></Modal>
+                    <Modal quantity={1} static={true}></Modal>
                     </div>
                     <PaymentMethods></PaymentMethods>
                 </div>
@@ -56,7 +54,7 @@ export default function Buy(){
                         </div>
                         <div className={styles.standardprice}>
                             <span>Standard Price</span>
-                            <span>$156.99</span>
+                            <span>$157</span>
                         </div>
                     </div>
                     <div className={styles.ship}>
@@ -72,7 +70,7 @@ export default function Buy(){
                         <span>Sale will end soon!</span>
                     </div>
                     <div className={styles.buyButtons}>
-                        <Modal quantity={2}></Modal>
+                        <Modal quantity={2} static={true}></Modal>
                     </div>
                     <PaymentMethods></PaymentMethods>
                 </div>
@@ -87,7 +85,7 @@ export default function Buy(){
                         </div>
                         <div className={styles.standardprice}>
                             <span>Standard Price</span>
-                            <span>$234.99</span>
+                            <span>$236</span>
                         </div>
                     </div>
                     <div className={styles.ship}>
@@ -103,7 +101,7 @@ export default function Buy(){
                         <span>Sale will end soon!</span>
                     </div>
                     <div className={styles.buyButtons}>
-                    <Modal quantity={3}></Modal>
+                    <Modal static={false}></Modal>
                     </div>
                     <PaymentMethods></PaymentMethods>
                 </div>

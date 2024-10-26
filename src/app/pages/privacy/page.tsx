@@ -1,5 +1,5 @@
 import Header from '@/app/header/header';
-import styles from './privacy.module.css';
+import styles from '../page.module.css';
 import Footer from '@/app/footer/footer';
 
 export default function Privacy(){

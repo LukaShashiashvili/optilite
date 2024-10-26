@@ -2,12 +2,13 @@
 import React, { useState, useEffect } from 'react';
 import Client from 'shopify-buy';
 import styles from './product.module.css';
-
+import Image from 'next/image';
+import PaymentMethods from '../payments/payments';
 
 
 interface CheckoutButtonProps{
 variantOptions: { id: string; name: string }[];
-quantity: number;
+quantity?: number;
 }
 
   const ProductStatic: React.FC<CheckoutButtonProps> = ({ variantOptions, quantity = 1 }) => {
@@ -46,25 +47,48 @@ quantity: number;
             prevSelectedVariants.map((variant, i) => (i === index ? variantId : variant))
           );
         };
+
+        const price = 54.99 * quantity;
+        const oldprice = Math.round(price * 100 / 70); 
+        const save = (oldprice - price).toFixed(2);
       
         return (
           <div className={styles.container}>
             {Array.from({ length: quantity }, (_, index) => (
-              <label className={styles.label} key={index}>
-                <select
-                  value={selectedVariants[index] || ''}
-                  onChange={(e) => handleVariantChange(index, e.target.value)}
-                  className={styles.select}
-                >
-                  {variantOptions.map((variant) => (
-                    <option className={styles.option} key={variant.id} value={variant.id}>
-                      {variant.name}
-                    </option>
-                  ))}
-                </select>
-              </label>
+              <div className={styles.variants}>
+                <label className={styles.label} key={index}>
+                  <select
+                    value={selectedVariants[index] || ''}
+                    onChange={(e) => handleVariantChange(index, e.target.value)}
+                    className={styles.select}
+                  >
+                    {variantOptions.map((variant) => (
+                      <option className={styles.option} key={variant.id} value={variant.id}>
+                        {variant.name}
+                      </option>
+                    ))}
+                  </select>
+                </label>
+              </div>
+              
             ))}
-      
+            <div className={styles.moneycontent}>
+              <span className={styles.save}>SAVE ${save}</span>
+              <div className={styles.prices}>
+                <span className={styles.price}>${price}</span>
+                <span className={styles.oldprice}>${oldprice}</span>
+              </div>
+            </div>
+            <div className={styles.ships}>
+              <div className={styles.ship}>
+                <Image src={'/delivery.png'} alt={''} width={15} height={15}></Image>
+                <p className={styles.shiptext}>Free Shipping</p>
+              </div>
+              <div className={styles.ship}>
+                <Image src={'/guarantee.png'} alt={''} width={15} height={15}></Image>
+                <p className={styles.shiptext}>30-Day Money Back</p>
+              </div>
+            </div>
             <button
             className={styles.button}
               onClick={() => {
@@ -74,8 +98,9 @@ quantity: number;
               }}
               disabled={!checkoutUrl || selectedVariants.some((variant) => !variant)}
             >
-              Buy Now
+              GO TO CHECKOUT
             </button>
+            <PaymentMethods></PaymentMethods>
           </div>
         );
       };

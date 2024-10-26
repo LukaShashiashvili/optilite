@@ -1,5 +1,5 @@
 .container{
-    background-color: #367ab8;
+    background: linear-gradient(#367ab8, #3eabf8);
     color: white;
     padding: 1em 3.5em;
     border-radius: 5em;
@@ -8,7 +8,7 @@
     font-size: 1em;
 }
 .container:hover{
-    background-color: rgb(62, 171, 248);
+    transform: scale(1.05);
     cursor: pointer;
 }
 

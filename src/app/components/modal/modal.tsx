@@ -1,10 +1,11 @@
 import { useState } from 'react';
 import styles from './modal.module.css';
 import ProductStatic from '../product/productStatic';
-import {variantOptions} from '../product/product';
+import Product, {variantOptions} from '../product/product';
 
 interface Props{
-    quantity: number;
+    quantity?: number;
+    static: boolean;
 }
 
 export default function Modal(props: Props) {
@@ -24,14 +25,30 @@ export default function Modal(props: Props) {
             <div onClick={toggleModal} className={styles.overlay}></div>
             <div className={styles.modalcontent}>
                 <div className={styles.container}>
-                    <div className={styles.headers}>
-                        <h3>
-                            Choose Your {props.quantity} OptilitePro Color:
-                        </h3>
+                  <div className={styles.steps}>
+                    <div className={styles.stepscontainer}>
+                      <div className={styles.round}>1</div>
+                      <div className={styles.line}></div>
+                      <div className={styles.roundcheck}>2</div>
                     </div>
-                    <ProductStatic variantOptions={variantOptions} quantity={props.quantity}></ProductStatic>
+                    <div className={styles.stepstext}>
+                      <p>CHOOSE COLOR</p>
+                      <p>CHECKOUT</p>
+                    </div>
+                  </div>
+                  
+                  <div className={styles.headers}>
+                      <h3>
+                          Choose Your {props.quantity} OptilitePro:
+                      </h3>
+                  </div>
+                  {props.static && 
+                    (<ProductStatic variantOptions={variantOptions} quantity={props.quantity}></ProductStatic>)  
+                  }
+                  {!props.static && 
+                    (<Product variantOptions={variantOptions}></Product>)
+                  }
                 </div>
-                
               <button className={styles.closemodal} onClick={toggleModal}>
                 X
               </button>

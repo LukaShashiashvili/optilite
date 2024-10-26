@@ -1,7 +1,8 @@
 'use client'
 import React, { useState, useEffect } from 'react';
 import Client from 'shopify-buy';
-import styles from './product.module.css';
+import styles from './product.module.css';import Image from 'next/image';
+import PaymentMethods from '../payments/payments';
 
   interface CheckoutButtonProps {
   variantOptions: { id: string; name: string }[];
@@ -9,7 +10,7 @@ import styles from './product.module.css';
 
 const Product: React.FC<CheckoutButtonProps> = ({ variantOptions }) => {
   const [checkoutUrl, setCheckoutUrl] = useState<string | null>(null);
-  const [quantity, setQuantity] = useState<number>(1);
+  const [quantity, setQuantity] = useState<number>(3);
   const [selectedVariants, setSelectedVariants] = useState<string[]>([]);
       
       const shopifyClient = Client.buildClient({
@@ -44,27 +45,37 @@ const Product: React.FC<CheckoutButtonProps> = ({ variantOptions }) => {
           prevSelectedVariants.map((variant, i) => (i === index ? variantId : variant))
         );
       };
-    
+
+      const increaseQuantity = () => {
+        setQuantity(quantity + 1)
+      }
+
+      const decreaseQuantity = () => {
+        if(quantity < 4) return;
+        setQuantity(quantity - 1)
+      }
+
+      
+      const price = 54.99 * quantity;
+      const oldprice = Math.round(price * 100 / 70);
+      const save = (oldprice - price).toFixed(2);
+
       return (
-        <div>
-          <label>
-            Quantity:
-            <input
-              type="number"
-              value={quantity}
-              onChange={(e) => setQuantity(Number(e.target.value))}
-              min="1"
-              style={{ marginLeft: '10px', marginRight: '10px' }}
-            />
-          </label>
-    
-          {Array.from({ length: quantity }, (_, index) => (
-            <label key={index} style={{ display: 'block', marginTop: '10px' }}>
-              Choose Color {index + 1}:
+        <div className={styles.container}>
+          <div className={styles.quantity}>
+            <span className={styles.quantitylabel}>Quantity:</span>
+            <button className={styles.quantitybtn} onClick={decreaseQuantity}>-</button>
+            <span>{quantity}</span>
+            <button className={styles.quantitybtn} onClick={increaseQuantity}>+</button>
+          </div>
+          <div className={styles.variants}>
+            {Array.from({ length: quantity }, (_, index) => (
+              <label className={styles.label} key={index}>
+              Product {index + 1}:
               <select
+                className={styles.select}
                 value={selectedVariants[index] || ''}
                 onChange={(e) => handleVariantChange(index, e.target.value)}
-                style={{ marginLeft: '10px' }}
               >
                 {variantOptions.map((variant) => (
                   <option key={variant.id} value={variant.id}>
@@ -73,8 +84,26 @@ const Product: React.FC<CheckoutButtonProps> = ({ variantOptions }) => {
                 ))}
               </select>
             </label>
-          ))}
-    
+            ))}
+          </div>
+
+            <div className={styles.moneycontent}>
+              <span className={styles.save}>SAVE ${save}</span>
+              <div className={styles.prices}>
+                <span className={styles.price}>${price}</span>
+                <span className={styles.oldprice}>${oldprice}</span>
+              </div>
+            </div>
+            <div className={styles.ships}>
+              <div className={styles.ship}>
+                <Image src={'/delivery.png'} alt={''} width={15} height={15}></Image>
+                <p className={styles.shiptext}>Free Shipping</p>
+              </div>
+              <div className={styles.ship}>
+                <Image src={'/guarantee.png'} alt={''} width={15} height={15}></Image>
+                <p className={styles.shiptext}>30-Day Money Back</p>
+              </div>
+            </div>
           <button
           className={styles.button}
             onClick={() => {
@@ -84,8 +113,9 @@ const Product: React.FC<CheckoutButtonProps> = ({ variantOptions }) => {
             }}
             disabled={!checkoutUrl || quantity < 1 || selectedVariants.some((variant) => !variant)}
           >
-            Buy Now
+            GO TO CHECKOUT
           </button>
+          <PaymentMethods></PaymentMethods>
         </div>
       );
     };
