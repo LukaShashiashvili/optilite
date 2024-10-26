@@ -3,7 +3,7 @@
     display: flex;
     gap: 10em;
     margin: 0 auto;
-    margin-top: 3em;
+    margin-top: 5vw;
 }
 .right{
     display: flex;
@@ -48,6 +48,7 @@
         flex-direction: column;
         gap: 2em;
         padding: 0;
+        margin-top: 15vw;
     }
     .photo{
         display: none;
@@ -84,7 +85,7 @@
         width: 45vw;
     }
 }
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 450px) {
     .paragraph{
         text-align: center;
     }

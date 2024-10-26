@@ -84,7 +84,10 @@
         font-size: 70%;
     } 
 }
-@media screen and  (max-width: 420px) {
+@media screen and  (max-width: 450px) {
+    .down{
+        gap: 15vw;
+    }
     .text h2{
         font-size: 150%;
     }

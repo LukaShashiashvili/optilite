@@ -34,7 +34,7 @@
         width: 80vw;
     }
 }
-@media screen and  (max-width: 420px) {
+@media screen and  (max-width: 450px) {
     .box{
         text-align: center;
     }

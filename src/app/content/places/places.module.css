@@ -30,13 +30,13 @@
     }
     .left img{
         width: 90vw;
-        height: 75vw;
+        height: 82vw;
     }
     .text{
         width: 80vw;
     }
 }
-@media screen and  (max-width: 420px) {
+@media screen and  (max-width: 450px) {
     .text h2, .text h3{
         font-size: 150%;
         text-align: center;

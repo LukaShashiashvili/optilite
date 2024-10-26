@@ -2,7 +2,7 @@
     background: linear-gradient(#367ab8, #3eabf8);
     color: white;
     padding: 1em 5.5em;
-    width: 30vw;
+    width: 25vw;
     border-radius: 2em;
     border: none;
     font-weight: bold;
@@ -102,13 +102,8 @@
 }
 
 @media screen and (max-width: 1024px) {
-    .container{
-        height: 30vw;
-        width: 50vw;
-    }
     .select{
-        height: min-content;
-        font-size: 70%;
+        font-size: 80%;
     }
     .text, .quantity{
         font-size: 80%;
@@ -120,35 +115,35 @@
 }
 
 @media screen and (max-width: 768px) {  
-    .text, .quantity, .label{
-        font-size: 70%;
-    }
     .label{
         flex-direction: column;
         gap: 0.5vw;
     }
     .select{
-        height: min-content;
-        font-size: 80%;
+        width: 60vw;
     }
     .button{
         font-size: 60%;
         width: min-content;
-        padding: 0.5vw 7em;
+        padding: 0.5vw 8vw;
+    }
+    .container{
+        height: 40vw;
     }
 }
 @media screen and (max-width: 540px) {
     .button{
-        font-size: 70%;
-        padding: 0.3vw 5em;
+        font-size: 80%;
+        padding: 3vw 5vw;
+        width: 60vw;
     }
     .container{
-        height: 70vw;
+        height: 78vw;
     }
 }
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 450px) {
 .quantity{
         flex-direction: column;
-    }
+}
 }
 
