@@ -39,7 +39,7 @@ export default function Buy(){
                         <span>Sale will end soon!</span>    
                     </div>
                     <div className={styles.buyButtons}>
-                        {/* <Modal quantity={1} static={true}></Modal> */}
+                        <Modal quantity={1} static={true}></Modal>
                     </div>
                     <PaymentMethods></PaymentMethods>
                 </div>
@@ -70,7 +70,7 @@ export default function Buy(){
                         <span>Sale will end soon!</span>
                     </div>
                     <div className={styles.buyButtons}>
-                        {/* <Modal quantity={2} static={true}></Modal> */}
+                        <Modal quantity={2} static={true}></Modal>
                     </div>
                     <PaymentMethods></PaymentMethods>
                 </div>
