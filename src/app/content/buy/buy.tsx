@@ -36,10 +36,10 @@ export default function Buy(){
                     </div>
                     <div className={styles.remaining}>
                         <Image className={styles.clock} src={'/icons/clock.svg'} alt={''} width={15} height={15}></Image>
-                        <span>Sale will end soon!</span>
+                        <span>Sale will end soon!</span>    
                     </div>
                     <div className={styles.buyButtons}>
-                    <Modal quantity={1} static={true}></Modal>
+                        <Modal quantity={1} static={true}></Modal>
                     </div>
                     <PaymentMethods></PaymentMethods>
                 </div>

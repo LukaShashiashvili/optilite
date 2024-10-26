@@ -18,7 +18,7 @@ export default function Modal(props: Props) {
     return (
       <>
         <button onClick={toggleModal} className={styles.btnmodal}>
-          Choose Color
+          CHOOSE COLOR
         </button>
         {modal && (
           <div className={styles.modal}>
@@ -39,7 +39,7 @@ export default function Modal(props: Props) {
                   
                   <div className={styles.headers}>
                       <h3>
-                          Choose Your {props.quantity} OptilitePro:
+                          Choose Your {props.quantity} OptilitePro Color:
                       </h3>
                   </div>
                   {props.static && 

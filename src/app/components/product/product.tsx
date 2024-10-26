@@ -86,22 +86,23 @@ const Product: React.FC<CheckoutButtonProps> = ({ variantOptions }) => {
             </label>
             ))}
           </div>
-
-            <div className={styles.moneycontent}>
-              <span className={styles.save}>SAVE ${save}</span>
-              <div className={styles.prices}>
-                <span className={styles.price}>${price}</span>
-                <span className={styles.oldprice}>${oldprice}</span>
+            <div className={styles.text}>
+              <div className={styles.moneycontent}>
+                <span className={styles.save}>SAVE ${save}</span>
+                <div className={styles.prices}>
+                  <span className={styles.price}>${price}</span>
+                  <span className={styles.oldprice}>${oldprice}</span>
+                </div>
               </div>
-            </div>
-            <div className={styles.ships}>
-              <div className={styles.ship}>
-                <Image src={'/delivery.png'} alt={''} width={15} height={15}></Image>
-                <p className={styles.shiptext}>Free Shipping</p>
-              </div>
-              <div className={styles.ship}>
-                <Image src={'/guarantee.png'} alt={''} width={15} height={15}></Image>
-                <p className={styles.shiptext}>30-Day Money Back</p>
+              <div className={styles.ships}>
+                <div className={styles.ship}>
+                  <Image src={'/delivery.png'} alt={''} width={15} height={15}></Image>
+                  <p className={styles.shiptext}>Free Shipping</p>
+                </div>
+                <div className={styles.ship}>
+                  <Image src={'/guarantee.png'} alt={''} width={15} height={15}></Image>
+                  <p className={styles.shiptext}>30-Day Money Back</p>
+                </div>
               </div>
             </div>
           <button

@@ -1,11 +1,12 @@
 .btnmodal {
     background: linear-gradient(#367ab8, #3eabf8);
     color: white;
-    padding: 1em 1.5em;
+    padding: 0.6em 3.5em;
     border-radius: 2em;
     border: none;
     font-weight: bold;
-    font-size: 1em;
+    font-size: 1.2em;
+    font-family: "Montserrat", sans-serif;
 }
 .btnmodal:hover{
     cursor: pointer;
@@ -27,14 +28,14 @@
 }
 .modalcontent {
     position: absolute;
-    top: 50%;
+    top: 52%;
     left: 50%;
     transform: translate(-50%, -50%);
     background: #f1f1f1;
     padding: 2em 1em;
     border-radius: 1vw;
-    max-width: 80vw;
-    min-width: 40vw;
+    max-width: 50vw;
+    min-width: 30vw;
     max-height: 45vw;
     z-index: 2;
     overflow-y: scroll;
@@ -66,8 +67,8 @@
 }
 
 .round, .roundcheck {
-    width: 3vw;
-    height: 3vw;
+    width: 2.5vw;
+    height: 2.5vw;
     background-color: #367ab8;
     border-radius: 50%;
     display: flex;
@@ -82,10 +83,10 @@
     background-color: #ffffff00;
     border: 0.1vw solid #777777;
     color: #777777;
-    margin-right: 0.5em;
+    margin-right: 0.8vw;
 }
 .line {
-    width: 13vw;
+    width: 10vw;
     flex-grow: 1;
     height: 2px;
     background-color: #777777;
@@ -100,7 +101,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-size: 0.9em;
 }
 .stepstext :last-child{
     color: #777777;
+}
+
+@media screen and (min-width: 1440px) {
+    .btnmodal{
+        font-size: 1.5em;
+    }
 }
