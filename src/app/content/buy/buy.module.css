@@ -74,6 +74,10 @@
 }
 .discount1, .discount2, .discount3{
     width: 8vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 .discount1{
     background-color: #5824EE;
@@ -145,6 +149,25 @@
     margin-top: 2em;
 }
 
+@media screen and (max-width: 1024px) {
+    .box h3{
+        font-size: 90%;
+    }
+    .type1, .type2, .type3{
+        font-size: 70%;
+    }
+    .discount1, .discount2,.discount3{
+        width: fit-content;
+    }
+    .price{
+        font-size: 70%;
+    }
+    .special{
+        flex-direction: column;
+        font-size: 80%;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .boxes{
         flex-direction: column;
@@ -153,21 +176,22 @@
     .box{
         width: 60vw;
     }
-}
-
-@media screen and (max-width: 420px) {
-    .box img{
-        width: 40%;
-        height: 40%;
+    .header{
+        font-size: 100%;
     }
     .box h3{
-        font-size: 100%;
-        text-align: center;
+        font-size: 90%;
     }
-    .header h2{
-        font-size: 120%;
+    .type1, .type2, .type3{
+        font-size: 70%;
     }
-    .price span, .price :last-child, .ship{
+    .discount1, .discount2,.discount3{
+        width: auto;
+    }
+    .price, .special{
         font-size: 80%;
+    }
+    .special{
+        flex-direction: column;
     }
 }

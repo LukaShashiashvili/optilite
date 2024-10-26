@@ -13,7 +13,7 @@ export default function Buy(){
             </div>
             <div className={styles.boxes}>
                 <div className={styles.box}>
-                    <Image src={'/product.png'} alt={''} width={200} height={150}></Image>
+                    <Image className={styles.product} src={'/product.png'} alt={''} width={200} height={150}></Image>
                     <h4 className={styles.type1}>MOST CHOICE</h4>
                     <h3>BUY 1 OPTILITE PRO</h3>
                     <div className={styles.price}>
@@ -39,12 +39,12 @@ export default function Buy(){
                         <span>Sale will end soon!</span>    
                     </div>
                     <div className={styles.buyButtons}>
-                        <Modal quantity={1} static={true}></Modal>
+                        {/* <Modal quantity={1} static={true}></Modal> */}
                     </div>
                     <PaymentMethods></PaymentMethods>
                 </div>
                 <div className={styles.box}>
-                    <Image className={styles.photo} src={'/product2.png'} alt={''} width={200} height={150}></Image>
+                    <Image className={styles.product} src={'/product2.png'} alt={''} width={200} height={150}></Image>
                     <h4 className={styles.type2}>MOST POPULAR</h4>
                     <h3>BUY 2 OPTILITE PRO</h3>
                     <div className={styles.price}>
@@ -70,12 +70,12 @@ export default function Buy(){
                         <span>Sale will end soon!</span>
                     </div>
                     <div className={styles.buyButtons}>
-                        <Modal quantity={2} static={true}></Modal>
+                        {/* <Modal quantity={2} static={true}></Modal> */}
                     </div>
                     <PaymentMethods></PaymentMethods>
                 </div>
                 <div className={styles.box}>
-                    <Image src={'/product3.png'} alt={''} width={200} height={150}></Image>
+                    <Image className={styles.product} src={'/product3.png'} alt={''} width={200} height={150}></Image>
                     <h4 className={styles.type3}>BEST BUNDLE</h4>
                     <h3>BUY 3+ OPTILITE PRO</h3>
                     <div className={styles.price}>

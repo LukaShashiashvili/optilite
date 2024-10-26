@@ -1,6 +1,5 @@
 import { Comparison } from './comparison';
 import styles from './difference.module.css';
-import Image from 'next/image';
 
 export default function Difference(){
     return(

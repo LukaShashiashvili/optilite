@@ -14,12 +14,6 @@
     transform: scale(1.05);
 }
 
-@media  screen and (max-width: 768px) {
-    .button{
-        width: 25vw;
-        font-size: 50%;
-    }
-}
 .container{
     display: flex;
     flex-direction: column;
@@ -50,11 +44,10 @@
     align-items: center;
     gap: 1em;
 }
-.quantity{
+.quantity, .quantitynumber{
     display: flex;
     align-items: center;
     gap: 1em;
-    align-self: flex-start;
 }
 .quantity span{
     font-size: 1.2em;
@@ -107,3 +100,56 @@
     gap: 0.5em;
     align-items: center;
 }
+
+@media screen and (max-width: 1024px) {
+    .container{
+        height: 30vw;
+        width: 50vw;
+    }
+    .select{
+        height: min-content;
+        font-size: 70%;
+    }
+    .text, .quantity{
+        font-size: 80%;
+    }
+    .button{
+        width: 25vw;
+        font-size: 60%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    
+    .text, .quantity, .label{
+        font-size: 70%;
+    }
+    .label{
+        flex-direction: column;
+        gap: 0.5vw;
+    }
+    .select{
+        height: min-content;
+        font-size: 80%;
+    }
+    .button{
+        font-size: 60%;
+        width: min-content;
+        padding: 0.5vw 7em;
+    }
+}
+@media screen and (max-width: 540px) {
+    .button{
+        font-size: 70%;
+        padding: 0.3vw 5em;
+    }
+}
+@media screen and (max-width: 420px) {
+    .container{
+        height: 70vw;
+    }
+    .quantity{
+        flex-direction: column;
+    }
+}
+

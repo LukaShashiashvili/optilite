@@ -28,9 +28,9 @@
         flex-direction: column;
         gap: 5em;
     }
-    .left{
-        display: flex;
-        flex-direction: column;
+    .left img{
+        width: 80vw;
+        height: 65vw;
     }
     .text{
         width: 70vw;

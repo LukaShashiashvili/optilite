@@ -64,9 +64,12 @@ const Product: React.FC<CheckoutButtonProps> = ({ variantOptions }) => {
         <div className={styles.container}>
           <div className={styles.quantity}>
             <span className={styles.quantitylabel}>Quantity:</span>
-            <button className={styles.quantitybtn} onClick={decreaseQuantity}>-</button>
-            <span>{quantity}</span>
-            <button className={styles.quantitybtn} onClick={increaseQuantity}>+</button>
+            <div className={styles.quantitynumber}>
+              <button className={styles.quantitybtn} onClick={decreaseQuantity}>-</button>
+              <span>{quantity}</span>
+              <button className={styles.quantitybtn} onClick={increaseQuantity}>+</button>
+            </div>
+              
           </div>
           <div className={styles.variants}>
             {Array.from({ length: quantity }, (_, index) => (

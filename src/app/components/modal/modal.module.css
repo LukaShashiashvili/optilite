@@ -107,8 +107,51 @@
     color: #777777;
 }
 
+
+
 @media screen and (min-width: 1440px) {
     .btnmodal{
         font-size: 1.5em;
+    }
+}
+
+@media screen and (max-width: 1220px) {
+    .headers, .stepstext, .closemodal, .round, .roundcheck{
+        font-size: 80%;
+    }
+    .modalcontent{
+        width: 40vw;
+        height: 40vw;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .modalcontent{
+        height: 80vw;
+    }
+}
+
+@media screen and (max-width: 940px) {
+    .stepstext{
+        font-size: 60%;
+    }
+    .round{
+        margin-left: 2.5vw;
+    }
+    .roundcheck{
+        margin-right: 1vw;
+    }
+}
+
+@media screen and (max-width: 540px) {
+     .modalcontent{
+        max-width: 60vw;
+        min-width: 50vw;
+        max-height: 75vw;
+     }
+}
+@media screen and (max-width: 420px) {
+    .stepscontainer, .stepstext{
+        display: none;
     }
 }

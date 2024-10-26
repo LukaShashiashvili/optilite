@@ -9,7 +9,7 @@ interface Props{
 }
 
 export default function Modal(props: Props) {
-    const [modal, setModal] = useState(false);
+    const [modal, setModal] = useState(true);
   
     const toggleModal = () => {
       setModal(!modal);
