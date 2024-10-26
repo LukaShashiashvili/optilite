@@ -15,7 +15,7 @@ export default function HeroDown(){
              <div className={styles.box}>
                 <Image className={styles.photo} src={'/customer.png'} alt={''} width={70} height={70}></Image>
                 <div className={styles.text}>
-                    <p className={styles.comment}>I absolutely love my OPTILITE PRO. After long hours in front of my screen, I used to experience eye fatigue and discomfort. Since I started using OPTILITE PRO, my eyes feel relaxed and strain-free. The clarity it provides is fantastic and the reduction in blue light is incredibly noticeable. It&apos;s a must-have for anyone who regularly uses screens. </p>
+                    <p className={styles.comment}>I absolutely love OPTILITE PRO. I used to experience eye fatigue and discomfort in front of my screen. Since I started using OPTILITE PRO, my eyes feel relaxed and strain-free. The clarity it provides is fantastic and the reduction in blue light is incredibly noticeable. It's a must-have for regular screen uses.</p>
                     <p className={styles.customerName}>⭐⭐⭐⭐⭐ Natalia K. Our Customer</p>                    
                 </div>
             </div>

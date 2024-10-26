@@ -31,7 +31,8 @@
     align-items: center;
     gap: 1vw;
     width: 25vw;
-    padding: 1.5em 0;
+    padding-top: 1.5em;
+    padding-bottom: 0;
     border: 0.1em solid rgb(0, 149, 255);
     border-radius: 2em;
 }
@@ -141,8 +142,7 @@
     }
 }
 .buyButtons{
-    display: flex;
-    gap: 1vw;
+    margin-top: 2em;
 }
 
 @media screen and (max-width: 768px) {

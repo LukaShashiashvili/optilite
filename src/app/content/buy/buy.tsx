@@ -1,7 +1,10 @@
-import Product from '@/app/components/product/product';
+'use client'
+import Product, { variantOptions } from '@/app/components/product/product';
 import styles from './buy.module.css';
 import Image from 'next/image';
 import PaymentMethods from '@/app/components/payments/payments';
+import ProductStatic from '@/app/components/product/productStatic';
+import Modal from '@/app/components/modal/modal';
 
 export default function Buy(){
     return(
@@ -18,11 +21,11 @@ export default function Buy(){
                     <div className={styles.price}>
                         <div className={styles.discount1}>
                             <span>Sale</span>
-                            <span>$49.99</span>
+                            <span>$54.99</span>
                         </div>
                         <div className={styles.standardprice}>
                             <span>Standard Price</span>
-                            <span>$74.99</span>
+                            <span>$77.99</span>
                         </div>
                     </div>
                     <div className={styles.ship}>
@@ -30,7 +33,7 @@ export default function Buy(){
                         <span>IN THE USA</span> 
                     </div>
                     <div className={styles.special}>
-                        <span className={styles.sale1}>SAVE 35%</span>
+                        <span className={styles.sale1}>SAVE 30%</span>
                         <span className={styles.specialprice}>Special online price!</span>
                     </div>
                     <div className={styles.remaining}>
@@ -38,8 +41,7 @@ export default function Buy(){
                         <span>Sale will end soon!</span>
                     </div>
                     <div className={styles.buyButtons}>
-                        <Product variantId={'49446916391210'} title={'BUY BLACK'} quantity={1}></Product>
-                        <Product variantId={'49446916423978'} title={'BUY WHITE'} quantity={1}></Product>
+                    <Modal quantity={1}></Modal>
                     </div>
                     <PaymentMethods></PaymentMethods>
                 </div>
@@ -54,7 +56,7 @@ export default function Buy(){
                         </div>
                         <div className={styles.standardprice}>
                             <span>Standard Price</span>
-                            <span>$74.99</span>
+                            <span>$156.99</span>
                         </div>
                     </div>
                     <div className={styles.ship}>
@@ -62,7 +64,7 @@ export default function Buy(){
                         <span>IN THE USA</span> 
                     </div>
                     <div className={styles.special}>
-                        <span className={styles.sale2}>SAVE 35%</span>
+                        <span className={styles.sale2}>SAVE 30%</span>
                         <span className={styles.specialprice}>Special online price!</span>
                     </div>
                     <div className={styles.remaining}>
@@ -70,15 +72,14 @@ export default function Buy(){
                         <span>Sale will end soon!</span>
                     </div>
                     <div className={styles.buyButtons}>
-                        <Product variantId={'49446916391210'} title={'BUY BLACK'} quantity={2}></Product>
-                        <Product variantId={'49446916423978'} title={'BUY WHITE'} quantity={2}></Product>
+                        <Modal quantity={2}></Modal>
                     </div>
                     <PaymentMethods></PaymentMethods>
                 </div>
                 <div className={styles.box}>
                     <Image src={'/product3.png'} alt={''} width={200} height={150}></Image>
                     <h4 className={styles.type3}>BEST BUNDLE</h4>
-                    <h3>BUY 3 OPTILITE PRO</h3>
+                    <h3>BUY 3+ OPTILITE PRO</h3>
                     <div className={styles.price}>
                         <div className={styles.discount3}>
                             <span>Sale</span>
@@ -86,7 +87,7 @@ export default function Buy(){
                         </div>
                         <div className={styles.standardprice}>
                             <span>Standard Price</span>
-                            <span>$74.99</span>
+                            <span>$234.99</span>
                         </div>
                     </div>
                     <div className={styles.ship}>
@@ -94,7 +95,7 @@ export default function Buy(){
                         <span>IN THE USA</span> 
                     </div>
                     <div className={styles.special}>
-                        <span className={styles.sale3}>SAVE 35%</span>
+                        <span className={styles.sale3}>SAVE 30%</span>
                         <span className={styles.specialprice}>Special online price!</span>
                     </div>
                     <div className={styles.remaining}>
@@ -102,12 +103,12 @@ export default function Buy(){
                         <span>Sale will end soon!</span>
                     </div>
                     <div className={styles.buyButtons}>
-                        <Product variantId={'49446916391210'} title={'BUY BLACK'} quantity={3}></Product>
-                        <Product variantId={'49446916423978'} title={'BUY WHITE'} quantity={3}></Product>
+                    <Modal quantity={3}></Modal>
                     </div>
                     <PaymentMethods></PaymentMethods>
                 </div>
             </div>
+            
         </main>
     )
 }

@@ -6,6 +6,7 @@
     border: none;
     font-weight: bold;
     font-size: 1em;
+    justify-self: end;
 }
 .button:hover{
     background-color: rgb(62, 171, 248);
@@ -17,4 +18,20 @@
         width: 25vw;
         font-size: 50%;
     }
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+}
+.select{
+    cursor: pointer;
+    display: block;
+    padding: 10px
+}
+.option{
+    cursor: pointer;
+    float: right;
+    line-height: 20px
 }
