@@ -36,7 +36,7 @@
     border-radius: 1vw;
     max-width: 50vw;
     min-width: 30vw;
-    max-height: 45vw;
+    min-height: 40vw;
     z-index: 2;
     overflow-y: scroll;
 }
@@ -125,11 +125,6 @@
     }
 }
 
-@media screen and (max-width: 1024px) {
-    .modalcontent{
-        height: 80vw;
-    }
-}
 
 @media screen and (max-width: 940px) {
     .stepstext{
@@ -143,12 +138,18 @@
     }
 }
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 768px) {
      .modalcontent{
-        max-width: 60vw;
-        min-width: 50vw;
-        max-height: 75vw;
+        max-width: 90vw;
+        min-width: 70vw;
+        min-height: 60vw;
      }
+}
+@media screen and (max-width: 540px) {
+    .modalcontent{
+       min-height: 100vw;
+       min-width: 80vw;
+    }
 }
 @media screen and (max-width: 420px) {
     .stepscontainer, .stepstext{

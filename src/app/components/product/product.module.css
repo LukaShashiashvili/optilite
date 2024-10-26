@@ -143,11 +143,12 @@
         font-size: 70%;
         padding: 0.3vw 5em;
     }
-}
-@media screen and (max-width: 420px) {
     .container{
         height: 70vw;
     }
+}
+@media screen and (max-width: 420px) {
+    
     .quantity{
         flex-direction: column;
     }
