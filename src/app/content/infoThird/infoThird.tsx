@@ -14,7 +14,7 @@ export default function InfoThird(){
                     This combination of specifications and functionality makes Optilite Pro an essential tool for creating an efficient and pleasant environment.
                 </p>
                 <Link className={styles.button} href={'#Buy'}>
-                    <Button clName={styles.button} title={'GET OPTILITE PRO NOW ⚡'}></Button>
+                    <Button title={'GET OPTILITE PRO NOW ⚡'}></Button>
                </Link>
             </div>
             <div className={styles.icons}>

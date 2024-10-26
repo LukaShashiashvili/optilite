@@ -18,7 +18,7 @@ export default function Modal(props: Props) {
     return (
       <>
         <button onClick={toggleModal} className={styles.btnmodal}>
-          CHOOSE COLOR
+          CHOOSE COLOR ⚡
         </button>
         {modal && (
           <div className={styles.modal}>

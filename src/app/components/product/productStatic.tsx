@@ -100,7 +100,7 @@ quantity?: number;
               }}
               disabled={!checkoutUrl || selectedVariants.some((variant) => !variant)}
             >
-              GO TO CHECKOUT
+              GO TO CHECKOUT ⚡
             </button>
             <PaymentMethods></PaymentMethods>
           </div>

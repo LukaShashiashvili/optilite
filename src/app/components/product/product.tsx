@@ -117,7 +117,7 @@ const Product: React.FC<CheckoutButtonProps> = ({ variantOptions }) => {
             }}
             disabled={!checkoutUrl || quantity < 1 || selectedVariants.some((variant) => !variant)}
           >
-            GO TO CHECKOUT
+            GO TO CHECKOUT ⚡
           </button>
           <PaymentMethods></PaymentMethods>
         </div>

@@ -56,7 +56,7 @@
 @media screen and (max-width: 1024px) {
     .mainH{
         align-self: flex-start;
-        gap: 1em;
+        gap: 3em;
     }
     .mainH h2{
         font-size: 2em;
@@ -71,7 +71,7 @@
         gap: 15vw;
     }
 }
-@media screen and  (max-width: 450px) {
+@media screen and  (max-width: 420px) {
     .mainH{
         text-align: center;
     }
