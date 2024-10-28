@@ -14,25 +14,25 @@ export default function Include(){
                 <div className={styles.down}>
                     <div className={styles.icons}>
                         <div className={styles.items}>
-                            <Image className={styles.item} src={'/product.png'} alt={''} width={65} height={50}></Image>
+                            <Image className={styles.item} src={'/product.png'} alt={'product'} width={65} height={50}></Image>
                             <div>1x Light<div>Bar</div></div>
                         </div>
                         <div className={styles.items}>
-                            <Image className={styles.item} src={'/usb.png'} alt={''} width={65} height={50}></Image>
+                            <Image className={styles.item} src={'/usb.png'} alt={'usb'} width={65} height={50}></Image>
                             <div>1x USB<div>Cable</div></div>
                         </div>
                         <div className={styles.items}>
-                            <Image className={styles.item} src={'/manual.png'} alt={''} width={65} height={50}></Image>
+                            <Image className={styles.item} src={'/manual.png'} alt={'manual'} width={65} height={50}></Image>
                             <div>1x User<div>Manual</div></div>
                         </div>
                     </div>
-                    <Image className={styles.photoResp} src={'/includePhoto.png'} alt={''} width={500} height={500}></Image>
+                    <Image className={styles.photoResp} src={'/includePhoto.png'} alt={'OptilitePro'} width={500} height={500}></Image>
                     <Link className={styles.button} href={'#Buy'}>
                         <Button title={'GET OPTILITE PRO NOW ⚡'}></Button>
                     </Link>
                 </div>
             </div>
-            <Image className={styles.photo} src={'/includePhoto.png'} alt={''} width={500} height={500}></Image>
+            <Image className={styles.photo} src={'/includePhoto.png'} alt={'OptilitePro'} width={500} height={500}></Image>
         </main>
     )
 }

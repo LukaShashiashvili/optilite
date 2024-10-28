@@ -5,7 +5,7 @@ import Image from 'next/image';
 export default function HTW(){
     return (
         <main className={styles.container}>
-            <Image className={styles.photo} src={'/laptop.png'} alt={''} width={750} height={500}></Image>
+            <Image className={styles.photo} src={'/laptop.png'} alt={'Laptop'} width={750} height={500}></Image>
             <div className={styles.text}>
                 <h2>MAIN FEATURES</h2>
                 <ul className={styles.htw}>
@@ -21,7 +21,7 @@ export default function HTW(){
                     </li>
                     <li>STEPLESS DIMMING
                         <ul>
-                            Adjust the brightness level to your exact preference. Simply long-press touch control key to smoothly change the light intensity to perfectly adapt to the lighting needs of different environment and different users.<Image className={styles.power} src={'/power.svg'} alt={''} width={18} height={18}></Image>
+                            Adjust the brightness level to your exact preference. Simply long-press touch control key to smoothly change the light intensity to perfectly adapt to the lighting needs of different environment and different users.<Image className={styles.power} src={'/power.svg'} alt={'Power'} width={18} height={18}></Image>
                         </ul>
                     </li>
                     <li>3 LIGHT COLOR MODE

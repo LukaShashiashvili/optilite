@@ -47,4 +47,7 @@
     .text{
         gap: 1em;
     }
+    .left img{
+        height: 82vw;
+    }
  }

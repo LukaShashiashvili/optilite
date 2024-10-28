@@ -5,7 +5,7 @@ export default function Places(){
     return(
         <main className={styles.container}>
             <div className={styles.left}>
-                <Image src={'/portable.png'} alt='' width={500} height={500}></Image>
+                <Image src={'/portable.png'} alt='Portable' width={500} height={500}></Image>
             </div>
             <div className={styles.text}>
                 <div className={styles.headers}>

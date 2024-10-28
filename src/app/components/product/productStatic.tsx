@@ -82,11 +82,11 @@ quantity?: number;
               </div>
               <div className={styles.ships}>
                 <div className={styles.ship}>
-                  <Image src={'/delivery.png'} alt={''} width={15} height={15}></Image>
+                  <Image src={'/delivery.png'} alt={'Delivery'} width={15} height={15}></Image>
                   <p className={styles.shiptext}>Free Shipping</p>
                 </div>
                 <div className={styles.ship}>
-                  <Image src={'/guarantee.png'} alt={''} width={15} height={15}></Image>
+                  <Image src={'/guarantee.png'} alt={'Guarantee'} width={15} height={15}></Image>
                   <p className={styles.shiptext}>30-Day Money Back</p>
                 </div>
               </div>

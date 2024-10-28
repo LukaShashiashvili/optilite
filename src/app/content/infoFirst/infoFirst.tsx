@@ -11,7 +11,7 @@ export default function InfoFirst(){
                 <p>A recent study showed that inadequate lighting and screen glare can produce unseen stressors that may lead to headaches, eye discomfort and sometimes dry eyes.</p>
                 <p>With its advanced technology, OPTILITE PRO significantly minimizes glare, providing a truly comfortable viewing experience, helping to improve focus and concentration, fostering more inviting and calming atmosphere for everyone.</p>
             </div>
-            <Image className={styles.photo} src={'/productFirst.png'} alt=""  width={500} height={400}></Image>
+            <Image className={styles.photo} src={'/productFirst.png'} alt="Product"  width={500} height={400}></Image>
         </main>
     )
 }

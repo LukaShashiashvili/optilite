@@ -24,6 +24,11 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   title: "OPTILITE PRO",
   description: "OPTILITE PRO",
+  keywords: 'react,meta,document,html,tags,optilite,optilitepro,light,screen,lightbar,TOP,SCREEN,HANGING,LIGHT,BAR,FOR,EYE,COMFORT',
+  verification: {other:{
+    name: 'facebook-domain-verification', 
+    content: '99l8hf5ve0eplp1t9qo02419v889fp'
+  }},
 };
 
 export default function RootLayout({

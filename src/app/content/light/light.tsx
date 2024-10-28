@@ -8,7 +8,7 @@ export default function Light(){
                 <h2>ASYMMETRIC LIGHT SOURCE DESIGN</h2>
                 <p>Light is directed at a targeted angle, reducing glare, enhancing visual comfort by preventing harsh shadows and reflections.</p>
             </div>
-            <Image className={styles.photo} src={'/light.png'} alt={''} width={600} height={400}></Image>
+            <Image className={styles.photo} src={'/light.png'} alt={'Light'} width={600} height={400}></Image>
         </main>
     )
 }

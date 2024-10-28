@@ -18,7 +18,7 @@ export default function infoSecond(){
                     <Button title={'GET OPTILITE PRO NOW ⚡'}></Button>
                 </Link>
             </div>
-            <Image className={styles.photo} src={'/productSecond.png'} alt={''} width={650} height={400}></Image>
+            <Image className={styles.photo} src={'/productSecond.png'} alt={'Product'} width={650} height={400}></Image>
         </main>
     )
 }
