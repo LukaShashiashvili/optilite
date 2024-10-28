@@ -35,6 +35,7 @@
 }
 .left img, .right img{
     width: 3vw;
+    height: 2.5vw;
 }
 .left div, .right div, .mid{
     font-weight: bolder;
