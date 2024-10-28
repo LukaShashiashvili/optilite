@@ -20,7 +20,6 @@
     right: 0;
     bottom: 0;
     position: fixed;
-    z-index: 1;
 }
 .overlay {
     background: rgba(49,49,49,0.8);
@@ -37,7 +36,7 @@
     max-width: 50vw;
     min-width: 30vw;
     min-height: 30vw;
-    z-index: 2;
+    z-index: 4;
     overflow-y: scroll;
 }
 .closemodal {
@@ -102,12 +101,6 @@
 }
 
 
-@media screen and (min-width: 1440px) {
-    .btnmodal{
-        font-size: 1.5em;
-    }
-}
-
 @media screen and (max-width: 1220px) {
     .headers, .stepstext, .closemodal, .round, .roundcheck{
         font-size: 80%;
@@ -118,6 +111,11 @@
     }
 }
 
+@media screen and (min-width:768px) and (max-width: 1220px) {
+    .btnmodal{
+        font-size: 85%;
+    }
+}
 
 @media screen and (max-width: 940px) {
     .stepstext{
@@ -161,5 +159,10 @@
 @media screen and (max-width: 450px) {
     .stepscontainer, .stepstext{
         display: none;
+    }
+}
+@media screen and (max-width: 370px) {
+    .btnmodal{
+        font-size: 5vw;
     }
 }

@@ -34,14 +34,48 @@
     height: 3.2em;
 }
 .left img, .right img{
-    width: 40px;
+    width: 4vw;
 }
 .left div, .right div, .mid{
     font-weight: bolder;
 }
 
-@media screen and (max-width: 1024px) {
-    .container,.up{
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+    .container, .up{
+        height: 5vw;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .container, .up{
+        height: 7vw;
+    }
+    .left, .right{
+        height: 1.7vw;
+        font-size: 2vw;
+    }
+    .left img, .right img{
+        width: 6vw;
+        height: 6vw;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container, .up{
+        height: 7vw;
+    }
+    .left, .right{
+        height: 1.7vw;
+        font-size: 2vw;
+    }
+    .left img, .right img{
+        width: 6vw;
+        height: 6vw;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .container, .up{
         height: 20vw;
     }
     .mid{
@@ -54,16 +88,16 @@
         justify-content: space-around;
         align-items: center;
     }
-    .left, .right{
-        height: 2vw;
-        font-size: 2vw;
-    }
-    .left img, .right img{
-        width: 9vw;
-        height: 9vw;
-    }
     .midResp img{
         width: 40vw;
         height: 10vw;
+    }
+    .left, .right{
+        height: 1.7vw;
+        font-size: 2vw;
+    }
+    .left img, .right img{
+        width: 6vw;
+        height: 6vw;
     }
 }
