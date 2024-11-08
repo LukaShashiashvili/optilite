@@ -48,7 +48,7 @@ quantity?: number;
           );
         };
 
-        const price = 54.99 * quantity;
+        const price = 44.99 * quantity;
         const oldprice = Math.round(price * 100 / 70); 
         const save = (oldprice - price).toFixed(2);
       
