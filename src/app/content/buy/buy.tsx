@@ -23,7 +23,7 @@ export default function Buy(){
                         </div>
                         <div className={styles.standardprice}>
                             <span>Standard Price</span>
-                            <span>$65</span>
+                            <span>$64</span>
                         </div>
                     </div>
                     <div className={styles.ship}>
