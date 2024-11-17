@@ -19,20 +19,20 @@ export default function Buy(){
                     <div className={styles.price}>
                         <div className={styles.discount1}>
                             <span>Sale</span>
-                            <span>$44.99</span>
+                            <span>A$85</span>
                         </div>
                         <div className={styles.standardprice}>
                             <span>Standard Price</span>
-                            <span>$64</span>
+                            <span>A$170</span>
                         </div>
                     </div>
                     <div className={styles.ship}>
                         <span>+ FREE SHIPPING</span>
-                        <span>IN THE USA</span> 
+                        <span>IN THE AUSTRALIA</span> 
                     </div>
                     <div className={styles.special}>
-                        <span className={styles.sale1}>SAVE 30%</span>
-                        <span className={styles.specialprice}>Special online price!</span>
+                        <span className={styles.sale1}>SAVE 50%</span>
+                        <span className={styles.specialprice}>Black Friday sale!</span>
                     </div>
                     <div className={styles.remaining}>
                         <Image className={styles.clock} src={'/icons/clock.svg'} alt={'Clock'} width={15} height={15}></Image>
@@ -50,20 +50,20 @@ export default function Buy(){
                     <div className={styles.price}>
                         <div className={styles.discount2}>
                             <span>Sale</span>
-                            <span>$89.98</span>
+                            <span>A$170</span>
                         </div>
                         <div className={styles.standardprice}>
                             <span>Standard Price</span>
-                            <span>$129</span>
+                            <span>A$340</span>
                         </div>
                     </div>
                     <div className={styles.ship}>
                         <span>+ FREE SHIPPING</span>
-                        <span>IN THE USA</span> 
+                        <span>IN THE AUSTRALIA</span> 
                     </div>
                     <div className={styles.special}>
-                        <span className={styles.sale2}>SAVE 30%</span>
-                        <span className={styles.specialprice}>Special online price!</span>
+                        <span className={styles.sale1}>SAVE 50%</span>
+                        <span className={styles.specialprice}>Black Friday sale!</span>
                     </div>
                     <div className={styles.remaining}>
                         <Image className={styles.clock} src={'/icons/clock.svg'} alt={'Clock'} width={15} height={15}></Image>
@@ -81,20 +81,20 @@ export default function Buy(){
                     <div className={styles.price}>
                         <div className={styles.discount3}>
                             <span>Sale</span>
-                            <span>$134.97</span>
+                            <span>A$255</span>
                         </div>
                         <div className={styles.standardprice}>
                             <span>Standard Price</span>
-                            <span>$193</span>
+                            <span>A$510</span>
                         </div>
                     </div>
                     <div className={styles.ship}>
                         <span>+ FREE SHIPPING</span>
-                        <span>IN THE USA</span> 
+                        <span>IN THE AUSTRALIA</span> 
                     </div>
                     <div className={styles.special}>
-                        <span className={styles.sale3}>SAVE 30%</span>
-                        <span className={styles.specialprice}>Special online price!</span>
+                        <span className={styles.sale1}>SAVE 50%</span>
+                        <span className={styles.specialprice}>Black Friday sale!</span>
                     </div>
                     <div className={styles.remaining}>
                         <Image className={styles.clock} src={'/icons/clock.svg'} alt={'Clock'} width={15} height={15}></Image>
