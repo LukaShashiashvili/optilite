@@ -12,7 +12,7 @@ export default function header(){
                         <span className={styles.diff}>
                             FREE SHIPPING IN
                         </span>
-                        <div>AUSTRALIA!</div>
+                        <div>UNITED STATES!</div>
                     </div>
                 </div>
                 <Link href= {'/'} className={styles.mid}>

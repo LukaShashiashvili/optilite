@@ -6,7 +6,7 @@ export default function Services(){
         <main className={styles.container}>
             <div className={styles.box}>
                 <Image src={'/delivery.png'} alt='delivery' width={100} height={100}></Image>
-                <h4>FREE SHIPPING IN the AUSTRALIA</h4>
+                <h4>FREE SHIPPING IN the UNITED STATES</h4>
                 <p>Enjoy the convenience of having your product delivered directly to your doorstep without incurring any additional shipping fees.</p>
             </div>
             <div className={styles.box}>

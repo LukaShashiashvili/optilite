@@ -19,16 +19,16 @@ export default function Buy(){
                     <div className={styles.price}>
                         <div className={styles.discount1}>
                             <span>Sale</span>
-                            <span>A$85</span>
+                            <span>$30</span>
                         </div>
                         <div className={styles.standardprice}>
                             <span>Standard Price</span>
-                            <span>A$170</span>
+                            <span>$60</span>
                         </div>
                     </div>
                     <div className={styles.ship}>
                         <span>+ FREE SHIPPING</span>
-                        <span>IN THE AUSTRALIA</span> 
+                        <span>IN THE UNITED STATES</span> 
                     </div>
                     <div className={styles.special}>
                         <span className={styles.sale1}>SAVE 50%</span>
@@ -50,16 +50,16 @@ export default function Buy(){
                     <div className={styles.price}>
                         <div className={styles.discount2}>
                             <span>Sale</span>
-                            <span>A$170</span>
+                            <span>$60</span>
                         </div>
                         <div className={styles.standardprice}>
                             <span>Standard Price</span>
-                            <span>A$340</span>
+                            <span>$120</span>
                         </div>
                     </div>
                     <div className={styles.ship}>
                         <span>+ FREE SHIPPING</span>
-                        <span>IN THE AUSTRALIA</span> 
+                        <span>IN THE UNITED STATES</span> 
                     </div>
                     <div className={styles.special}>
                         <span className={styles.sale1}>SAVE 50%</span>
@@ -81,16 +81,16 @@ export default function Buy(){
                     <div className={styles.price}>
                         <div className={styles.discount3}>
                             <span>Sale</span>
-                            <span>A$255</span>
+                            <span>$180</span>
                         </div>
                         <div className={styles.standardprice}>
                             <span>Standard Price</span>
-                            <span>A$510</span>
+                            <span>$360</span>
                         </div>
                     </div>
                     <div className={styles.ship}>
                         <span>+ FREE SHIPPING</span>
-                        <span>IN THE AUSTRALIA</span> 
+                        <span>IN THE UNITED STATES</span>
                     </div>
                     <div className={styles.special}>
                         <span className={styles.sale1}>SAVE 50%</span>

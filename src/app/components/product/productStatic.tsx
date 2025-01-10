@@ -48,7 +48,7 @@ quantity?: number;
           );
         };
 
-        const price = 85 * quantity;
+        const price = 30 * quantity;
         const oldprice = Math.round(price * 100 / 50); 
         const save = (oldprice - price).toFixed(2);
       
@@ -74,10 +74,10 @@ quantity?: number;
             ))}
             <div className={styles.text}>
               <div className={styles.moneycontent}>
-                <span className={styles.save}>SAVE A${save}</span>
+                <span className={styles.save}>SAVE ${save}</span>
                 <div className={styles.prices}>
-                  <span className={styles.price}>A${price}</span>
-                  <span className={styles.oldprice}>A${oldprice}</span>
+                  <span className={styles.price}>${price}</span>
+                  <span className={styles.oldprice}>${oldprice}</span>
                 </div>
               </div>
               <div className={styles.ships}>
