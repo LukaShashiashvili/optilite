@@ -16,8 +16,8 @@ quantity?: number;
     const [selectedVariants, setSelectedVariants] = useState<string[]>([]);
         
         const shopifyClient = Client.buildClient({
-          domain: '4a5406-31.myshopify.com',
-          storefrontAccessToken: 'c28f990cace2e752fd8098910de2c8b4',
+          domain: 'q4ivxf-aa.myshopify.com',
+          storefrontAccessToken: '5e2f776f7ebe13cac36e180e5e375554',
           apiVersion: ''
         });
       
