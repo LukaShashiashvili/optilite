@@ -1,7 +1,8 @@
 'use client'
 import React, { useState, useEffect } from 'react';
 import Client from 'shopify-buy';
-import styles from './product.module.css';import Image from 'next/image';
+import styles from './product.module.css';
+import Image from 'next/image';
 import PaymentMethods from '../payments/payments';
 
   interface CheckoutButtonProps {
@@ -125,8 +126,8 @@ const Product: React.FC<CheckoutButtonProps> = ({ variantOptions }) => {
     };
 
   export const variantOptions = [
-      { id: "49446916391210", name: "⚫ Black" },
-      { id: "49446916423978", name: "⚪ White" },
+      { id: "45525796257955", name: "⚫ Black" },
+      { id: "45525796290723", name: "⚪ White" },
     ];
 
 export default Product;

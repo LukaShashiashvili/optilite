@@ -5,7 +5,6 @@ import styles from './product.module.css';
 import Image from 'next/image';
 import PaymentMethods from '../payments/payments';
 
-
 interface CheckoutButtonProps{
 variantOptions: { id: string; name: string }[];
 quantity?: number;
@@ -20,7 +19,7 @@ quantity?: number;
           storefrontAccessToken: '5e2f776f7ebe13cac36e180e5e375554',
           apiVersion: ''
         });
-      
+
         useEffect(() => {
           setSelectedVariants((prevSelectedVariants) =>
             Array.from({ length: quantity}, (_, i) => prevSelectedVariants[i] || variantOptions?.[0]?.id || '')
@@ -55,8 +54,8 @@ quantity?: number;
         return (
           <div className={styles.container}>
             {Array.from({ length: quantity }, (_, index) => (
-              <div className={styles.variants}>
-                <label className={styles.label} key={index}>
+              <div className={styles.variants} key={index}>
+                <label className={styles.label}>
                   <select
                     value={selectedVariants[index] || ''}
                     onChange={(e) => handleVariantChange(index, e.target.value)}
