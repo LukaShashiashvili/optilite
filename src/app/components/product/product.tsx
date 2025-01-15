@@ -16,7 +16,7 @@ const Product: React.FC<CheckoutButtonProps> = ({ variantOptions }) => {
       
       const shopifyClient = Client.buildClient({
         domain: 'q4ivxf-aa.myshopify.com',
-        storefrontAccessToken: '5e2f776f7ebe13cac36e180e5e375554',
+        storefrontAccessToken: '5de8732a70b89af4be5a28db646889e9',
         apiVersion: ''
       });
     
