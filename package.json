@@ -9,7 +9,6 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@graphland/react-video-player": "^0.1.14",
     "@shopify/shopify-api": "^11.5.0",
     "axios": "^1.7.7",
     "next": "^15.0.1",
