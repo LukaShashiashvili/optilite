@@ -63,7 +63,7 @@ const ProductStatic: React.FC<CheckoutButtonProps> = ({ variantOptions, quantity
     setSelectedVariants((prev) => prev.map((variant, i) => (i === index ? variantId : variant)));
   };
 
-  const price = 30 * quantity;
+  const price = 39.99 * quantity;
   const oldPrice = Math.round(price * 100 / 50);
   const save = (oldPrice - price).toFixed(2);
 

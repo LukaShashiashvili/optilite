@@ -66,7 +66,7 @@ const Product: React.FC<CheckoutButtonProps> = ({ variantOptions }) => {
   const increaseQuantity = () => setQuantity((q) => q + 1);
   const decreaseQuantity = () => setQuantity((q) => (q > 3 ? q - 1 : q));
 
-  const price = 30 * quantity;
+  const price = 39.99 * quantity;
   const oldPrice = Math.round(price * 100 / 50);
   const save = (oldPrice - price).toFixed(2);
 

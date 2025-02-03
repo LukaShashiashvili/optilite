@@ -19,11 +19,11 @@ export default function Buy(){
                     <div className={styles.price}>
                         <div className={styles.discount1}>
                             <span>Sale</span>
-                            <span>$30</span>
+                            <span>$39.99</span>
                         </div>
                         <div className={styles.standardprice}>
                             <span>Standard Price</span>
-                            <span>$60</span>
+                            <span>$80</span>
                         </div>
                     </div>
                     <div className={styles.ship}>
@@ -50,11 +50,11 @@ export default function Buy(){
                     <div className={styles.price}>
                         <div className={styles.discount2}>
                             <span>Sale</span>
-                            <span>$60</span>
+                            <span>$79.98</span>
                         </div>
                         <div className={styles.standardprice}>
                             <span>Standard Price</span>
-                            <span>$120</span>
+                            <span>$140</span>
                         </div>
                     </div>
                     <div className={styles.ship}>
@@ -81,11 +81,11 @@ export default function Buy(){
                     <div className={styles.price}>
                         <div className={styles.discount3}>
                             <span>Sale</span>
-                            <span>$90</span>
+                            <span>$119.97</span>
                         </div>
                         <div className={styles.standardprice}>
                             <span>Standard Price</span>
-                            <span>$180</span>
+                            <span>$240</span>
                         </div>
                     </div>
                     <div className={styles.ship}>
